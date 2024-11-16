@@ -1,0 +1,595 @@
+
+--- Random Sample ---
+Source Text: Hello, it's Brant from the geriatric care department. Henry is a Male, aged 49 years old, who needs routine checks. I've noted down her 8bbc:ec5a:5083:d56d:b5fa:838b:3e83:dbcb for video consultations. Her secondary residence is at Apt. 778.
+Privacy Mask:
+  - Label: FIRSTNAME, Value: Brant, Start: 12, End: 17
+  - Label: FIRSTNAME, Value: Henry, Start: 54, End: 59
+  - Label: SEX, Value: Male, Start: 65, End: 69
+  - Label: AGE, Value: 49 years old, Start: 76, End: 88
+  - Label: IPV6, Value: 8bbc:ec5a:5083:d56d:b5fa:838b:3e83:dbcb, Start: 136, End: 175
+  - Label: SECONDARYADDRESS, Value: Apt. 778, Start: 231, End: 239
+
+Token...Label
+<s>            ...O
+Hello          ...O
+,              ...O
+Ġit            ...O
+'s             ...O
+ĠBr            ...B-FIRSTNAME
+ant            ...I-FIRSTNAME
+Ġfrom          ...O
+Ġthe           ...O
+Ġger           ...O
+iatric         ...O
+Ġcare          ...O
+Ġdepartment    ...O
+.              ...O
+ĠHenry         ...B-FIRSTNAME
+Ġis            ...O
+Ġa             ...O
+ĠMale          ...B-SEX
+,              ...O
+Ġaged          ...O
+Ġ49            ...B-AGE
+Ġyears         ...I-AGE
+Ġold           ...I-AGE
+,              ...O
+Ġwho           ...O
+Ġneeds         ...O
+Ġroutine       ...O
+Ġchecks        ...O
+.              ...O
+ĠI             ...O
+'ve            ...O
+Ġnoted         ...O
+Ġdown          ...O
+Ġher           ...O
+Ġ8             ...B-IPV6
+bb             ...I-IPV6
+c              ...I-IPV6
+:              ...I-IPV6
+ec             ...I-IPV6
+5              ...I-IPV6
+a              ...I-IPV6
+:              ...I-IPV6
+50             ...I-IPV6
+83             ...I-IPV6
+:              ...I-IPV6
+d              ...I-IPV6
+56             ...I-IPV6
+d              ...I-IPV6
+:              ...I-IPV6
+b              ...I-IPV6
+5              ...I-IPV6
+fa             ...I-IPV6
+:              ...I-IPV6
+8              ...I-IPV6
+38             ...I-IPV6
+b              ...I-IPV6
+:              ...I-IPV6
+3              ...I-IPV6
+e              ...I-IPV6
+83             ...I-IPV6
+:              ...I-IPV6
+db             ...I-IPV6
+cb             ...I-IPV6
+Ġfor           ...O
+Ġvideo         ...O
+Ġconsultations ...O
+.              ...O
+ĠHer           ...O
+Ġsecondary     ...O
+Ġresidence     ...O
+Ġis            ...O
+Ġat            ...O
+ĠA             ...B-SECONDARYADDRESS
+pt             ...I-SECONDARYADDRESS
+.              ...I-SECONDARYADDRESS
+Ġ7             ...I-SECONDARYADDRESS
+78             ...I-SECONDARYADDRESS
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: I require a detailed study on how anti-trust laws in New York affect small businesses, specifically in 36375-4425. Please send this report to 0x2d4af5dabccda1fadb11c7f64bca12330bb844fe and keep 0010654559346583 secure throughout the process.
+Privacy Mask:
+  - Label: STATE, Value: New York, Start: 53, End: 61
+  - Label: ZIPCODE, Value: 36375-4425, Start: 103, End: 113
+  - Label: ETHEREUMADDRESS, Value: 0x2d4af5dabccda1fadb11c7f64bca12330bb844fe, Start: 142, End: 184
+  - Label: CREDITCARDNUMBER, Value: 0010654559346583, Start: 194, End: 210
+
+Token...Label
+<s>            ...O
+I              ...O
+Ġrequire       ...O
+Ġa             ...O
+Ġdetailed      ...O
+Ġstudy         ...O
+Ġon            ...O
+Ġhow           ...O
+Ġanti          ...O
+-              ...O
+trust          ...O
+Ġlaws          ...O
+Ġin            ...O
+ĠNew           ...B-STATE
+ĠYork          ...I-STATE
+Ġaffect        ...O
+Ġsmall         ...O
+Ġbusinesses    ...O
+,              ...O
+Ġspecifically  ...O
+Ġin            ...O
+Ġ36            ...B-ZIPCODE
+375            ...I-ZIPCODE
+-              ...I-ZIPCODE
+44             ...I-ZIPCODE
+25             ...I-ZIPCODE
+.              ...O
+ĠPlease        ...O
+Ġsend          ...O
+Ġthis          ...O
+Ġreport        ...O
+Ġto            ...O
+Ġ0             ...B-ETHEREUMADDRESS
+x              ...I-ETHEREUMADDRESS
+2              ...I-ETHEREUMADDRESS
+d              ...I-ETHEREUMADDRESS
+4              ...I-ETHEREUMADDRESS
+af             ...I-ETHEREUMADDRESS
+5              ...I-ETHEREUMADDRESS
+d              ...I-ETHEREUMADDRESS
+ab             ...I-ETHEREUMADDRESS
+cc             ...I-ETHEREUMADDRESS
+da             ...I-ETHEREUMADDRESS
+1              ...I-ETHEREUMADDRESS
+f              ...I-ETHEREUMADDRESS
+ad             ...I-ETHEREUMADDRESS
+b              ...I-ETHEREUMADDRESS
+11             ...I-ETHEREUMADDRESS
+c              ...I-ETHEREUMADDRESS
+7              ...I-ETHEREUMADDRESS
+f              ...I-ETHEREUMADDRESS
+64             ...I-ETHEREUMADDRESS
+b              ...I-ETHEREUMADDRESS
+ca             ...I-ETHEREUMADDRESS
+123            ...I-ETHEREUMADDRESS
+30             ...I-ETHEREUMADDRESS
+bb             ...I-ETHEREUMADDRESS
+8              ...I-ETHEREUMADDRESS
+44             ...I-ETHEREUMADDRESS
+fe             ...I-ETHEREUMADDRESS
+Ġand           ...O
+Ġkeep          ...O
+Ġ00            ...B-CREDITCARDNUMBER
+10             ...I-CREDITCARDNUMBER
+65             ...I-CREDITCARDNUMBER
+45             ...I-CREDITCARDNUMBER
+59             ...I-CREDITCARDNUMBER
+34             ...I-CREDITCARDNUMBER
+65             ...I-CREDITCARDNUMBER
+83             ...I-CREDITCARDNUMBER
+Ġsecure        ...O
+Ġthroughout    ...O
+Ġthe           ...O
+Ġprocess       ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Dear Participant, the venue for the group therapy has been changed to Apt. 463, Hilpert Spurs, Building No. 452. Can you confirm your availability?
+Privacy Mask:
+  - Label: SECONDARYADDRESS, Value: Apt. 463, Start: 70, End: 78
+  - Label: STREET, Value: Hilpert Spurs, Start: 80, End: 93
+  - Label: BUILDINGNUMBER, Value: 452, Start: 108, End: 111
+
+Token...Label
+<s>            ...O
+Dear           ...O
+ĠParticipant   ...O
+,              ...O
+Ġthe           ...O
+Ġvenue         ...O
+Ġfor           ...O
+Ġthe           ...O
+Ġgroup         ...O
+Ġtherapy       ...O
+Ġhas           ...O
+Ġbeen          ...O
+Ġchanged       ...O
+Ġto            ...O
+ĠA             ...B-SECONDARYADDRESS
+pt             ...I-SECONDARYADDRESS
+.              ...I-SECONDARYADDRESS
+Ġ4             ...I-SECONDARYADDRESS
+63             ...I-SECONDARYADDRESS
+,              ...O
+ĠHil           ...B-STREET
+pert           ...I-STREET
+ĠSpurs         ...I-STREET
+,              ...O
+ĠBuilding      ...O
+ĠNo            ...O
+.              ...O
+Ġ45            ...B-BUILDINGNUMBER
+2              ...I-BUILDINGNUMBER
+.              ...O
+ĠCan           ...O
+Ġyou           ...O
+Ġconfirm       ...O
+Ġyour          ...O
+Ġavailability  ...O
+?              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Staff, always encode sensitive data. Patient Rhiannon IBAN should be kept as BG34OQJD0400863U773316, don't share it.
+Privacy Mask:
+  - Label: FIRSTNAME, Value: Rhiannon, Start: 45, End: 53
+  - Label: IBAN, Value: BG34OQJD0400863U773316, Start: 77, End: 99
+
+Token...Label
+<s>            ...O
+Staff          ...O
+,              ...O
+Ġalways        ...O
+Ġencode        ...O
+Ġsensitive     ...O
+Ġdata          ...O
+.              ...O
+ĠPatient       ...O
+ĠRh            ...B-FIRSTNAME
+ian            ...I-FIRSTNAME
+non            ...I-FIRSTNAME
+ĠIB            ...O
+AN             ...O
+Ġshould        ...O
+Ġbe            ...O
+Ġkept          ...O
+Ġas            ...O
+ĠBG            ...B-IBAN
+34             ...I-IBAN
+O              ...I-IBAN
+Q              ...I-IBAN
+JD             ...I-IBAN
+04             ...I-IBAN
+00             ...I-IBAN
+86             ...I-IBAN
+3              ...I-IBAN
+U              ...I-IBAN
+77             ...I-IBAN
+33             ...I-IBAN
+16             ...I-IBAN
+,              ...O
+Ġdon           ...O
+'t             ...O
+Ġshare         ...O
+Ġit            ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Dear Magnus, Your residential address has been updated to 12080-7832 in our pediatric care records.
+Privacy Mask:
+  - Label: FIRSTNAME, Value: Magnus, Start: 5, End: 11
+  - Label: ZIPCODE, Value: 12080-7832, Start: 58, End: 68
+
+Token...Label
+<s>            ...O
+Dear           ...O
+ĠMagnus        ...B-FIRSTNAME
+,              ...O
+ĠYour          ...O
+Ġresidential   ...O
+Ġaddress       ...O
+Ġhas           ...O
+Ġbeen          ...O
+Ġupdated       ...O
+Ġto            ...O
+Ġ120           ...B-ZIPCODE
+80             ...I-ZIPCODE
+-              ...I-ZIPCODE
+78             ...I-ZIPCODE
+32             ...I-ZIPCODE
+Ġin            ...O
+Ġour           ...O
+Ġpediatric     ...O
+Ġcare          ...O
+Ġrecords       ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Hi Ethan, we need permission to track your computer with Mozilla/5.0 (X11; Linux x86_64; rv:5.5) Gecko/20100101 Firefox/5.5.5 and a54f:2a74:cdb9:30f1:bbff:ebad:4baf:69d9 for better workflow management. Reply 'yes' to give consent.
+Privacy Mask:
+  - Label: FIRSTNAME, Value: Ethan, Start: 3, End: 8
+  - Label: USERAGENT, Value: Mozilla/5.0 (X11; Linux x86_64; rv:5.5) Gecko/20100101 Firefox/5.5.5, Start: 57, End: 125
+  - Label: IPV6, Value: a54f:2a74:cdb9:30f1:bbff:ebad:4baf:69d9, Start: 130, End: 169
+
+Token...Label
+<s>            ...O
+Hi             ...O
+ĠEthan         ...B-FIRSTNAME
+,              ...O
+Ġwe            ...O
+Ġneed          ...O
+Ġpermission    ...O
+Ġto            ...O
+Ġtrack         ...O
+Ġyour          ...O
+Ġcomputer      ...O
+Ġwith          ...O
+ĠMozilla       ...B-USERAGENT
+/              ...I-USERAGENT
+5              ...I-USERAGENT
+.              ...I-USERAGENT
+0              ...I-USERAGENT
+Ġ(             ...I-USERAGENT
+X              ...I-USERAGENT
+11             ...I-USERAGENT
+;              ...I-USERAGENT
+ĠLinux         ...I-USERAGENT
+Ġx             ...I-USERAGENT
+86             ...I-USERAGENT
+_              ...I-USERAGENT
+64             ...I-USERAGENT
+;              ...I-USERAGENT
+Ġr             ...I-USERAGENT
+v              ...I-USERAGENT
+:              ...I-USERAGENT
+5              ...I-USERAGENT
+.              ...I-USERAGENT
+5              ...I-USERAGENT
+)              ...I-USERAGENT
+ĠGe            ...I-USERAGENT
+cko            ...I-USERAGENT
+/              ...I-USERAGENT
+201            ...I-USERAGENT
+001            ...I-USERAGENT
+01             ...I-USERAGENT
+ĠFirefox       ...I-USERAGENT
+/              ...I-USERAGENT
+5              ...I-USERAGENT
+.              ...I-USERAGENT
+5              ...I-USERAGENT
+.              ...I-USERAGENT
+5              ...I-USERAGENT
+Ġand           ...O
+Ġa             ...B-IPV6
+54             ...I-IPV6
+f              ...I-IPV6
+:              ...I-IPV6
+2              ...I-IPV6
+a              ...I-IPV6
+74             ...I-IPV6
+:              ...I-IPV6
+c              ...I-IPV6
+db             ...I-IPV6
+9              ...I-IPV6
+:              ...I-IPV6
+30             ...I-IPV6
+f              ...I-IPV6
+1              ...I-IPV6
+:              ...I-IPV6
+bb             ...I-IPV6
+ff             ...I-IPV6
+:              ...I-IPV6
+eb             ...I-IPV6
+ad             ...I-IPV6
+:              ...I-IPV6
+4              ...I-IPV6
+b              ...I-IPV6
+af             ...I-IPV6
+:              ...I-IPV6
+69             ...I-IPV6
+d              ...I-IPV6
+9              ...I-IPV6
+Ġfor           ...O
+Ġbetter        ...O
+Ġworkflow      ...O
+Ġmanagement    ...O
+.              ...O
+ĠReply         ...O
+Ġ'             ...O
+yes            ...O
+'              ...O
+Ġto            ...O
+Ġgive          ...O
+Ġconsent       ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Hey Demi-man, I hope you're making it to this weekend's hiking trip. We're starting from 36935-3923, so pack accordingly!
+Privacy Mask:
+  - Label: GENDER, Value: Demi-man, Start: 4, End: 12
+  - Label: ZIPCODE, Value: 36935-3923, Start: 89, End: 99
+
+Token...Label
+<s>            ...O
+Hey            ...O
+ĠDem           ...B-GENDER
+i              ...I-GENDER
+-              ...I-GENDER
+man            ...I-GENDER
+,              ...O
+ĠI             ...O
+Ġhope          ...O
+Ġyou           ...O
+'re            ...O
+Ġmaking        ...O
+Ġit            ...O
+Ġto            ...O
+Ġthis          ...O
+Ġweekend       ...O
+'s             ...O
+Ġhiking        ...O
+Ġtrip          ...O
+.              ...O
+ĠWe            ...O
+'re            ...O
+Ġstarting      ...O
+Ġfrom          ...O
+Ġ369           ...B-ZIPCODE
+35             ...I-ZIPCODE
+-              ...I-ZIPCODE
+39             ...I-ZIPCODE
+23             ...I-ZIPCODE
+,              ...O
+Ġso            ...O
+Ġpack          ...O
+Ġaccordingly   ...O
+!              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: I recently moved to 41925. I was wondering if this move impacts my tax return, especially with regards to my Coordinator in Hesse. My new residential address: Everett Courts 2254 Apt. 461
+Privacy Mask:
+  - Label: ZIPCODE, Value: 41925, Start: 20, End: 25
+  - Label: JOBTYPE, Value: Coordinator, Start: 109, End: 120
+  - Label: STATE, Value: Hesse, Start: 124, End: 129
+  - Label: STREET, Value: Everett Courts, Start: 159, End: 173
+  - Label: BUILDINGNUMBER, Value: 2254, Start: 174, End: 178
+  - Label: SECONDARYADDRESS, Value: Apt. 461, Start: 179, End: 187
+
+Token...Label
+<s>            ...O
+I              ...O
+Ġrecently      ...O
+Ġmoved         ...O
+Ġto            ...O
+Ġ419           ...B-ZIPCODE
+25             ...I-ZIPCODE
+.              ...O
+ĠI             ...O
+Ġwas           ...O
+Ġwondering     ...O
+Ġif            ...O
+Ġthis          ...O
+Ġmove          ...O
+Ġimpacts       ...O
+Ġmy            ...O
+Ġtax           ...O
+Ġreturn        ...O
+,              ...O
+Ġespecially    ...O
+Ġwith          ...O
+Ġregards       ...O
+Ġto            ...O
+Ġmy            ...O
+ĠCoordinator   ...B-JOBTYPE
+Ġin            ...O
+ĠH             ...B-STATE
+esse           ...I-STATE
+.              ...O
+ĠMy            ...O
+Ġnew           ...O
+Ġresidential   ...O
+Ġaddress       ...O
+:              ...O
+ĠEverett       ...B-STREET
+ĠCourts        ...I-STREET
+Ġ225           ...B-BUILDINGNUMBER
+4              ...I-BUILDINGNUMBER
+ĠA             ...B-SECONDARYADDRESS
+pt             ...I-SECONDARYADDRESS
+.              ...I-SECONDARYADDRESS
+Ġ4             ...I-SECONDARYADDRESS
+61             ...I-SECONDARYADDRESS
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Dear Mrs., we request a donation of ₡0.000b for our Mathematics scholarship fund. You can make payment to our account Credit Card Account.
+Privacy Mask:
+  - Label: PREFIX, Value: Mrs., Start: 5, End: 9
+  - Label: CURRENCYSYMBOL, Value: ₡, Start: 36, End: 37
+  - Label: AMOUNT, Value: 0.000b, Start: 37, End: 43
+  - Label: ACCOUNTNAME, Value: Credit Card Account, Start: 118, End: 137
+
+Token...Label
+<s>            ...O
+Dear           ...O
+ĠMrs           ...B-PREFIX
+.,             ...I-PREFIX
+Ġwe            ...O
+Ġrequest       ...O
+Ġa             ...O
+Ġdonation      ...O
+Ġof            ...O
+Ġâ             ...B-CURRENCYSYMBOL
+Ĥ              ...O
+¡              ...O
+0              ...B-AMOUNT
+.              ...I-AMOUNT
+000            ...I-AMOUNT
+b              ...I-AMOUNT
+Ġfor           ...O
+Ġour           ...O
+ĠMathematics   ...O
+Ġscholarship   ...O
+Ġfund          ...O
+.              ...O
+ĠYou           ...O
+Ġcan           ...O
+Ġmake          ...O
+Ġpayment       ...O
+Ġto            ...O
+Ġour           ...O
+Ġaccount       ...O
+ĠCredit        ...B-ACCOUNTNAME
+ĠCard          ...I-ACCOUNTNAME
+ĠAccount       ...I-ACCOUNTNAME
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: We're trying to update info in diagnostic equipment for Home Loan Account, but it keeps asking for SVkn4mbE7dZn. Any ideas?
+Privacy Mask:
+  - Label: ACCOUNTNAME, Value: Home Loan Account, Start: 56, End: 73
+  - Label: PASSWORD, Value: SVkn4mbE7dZn, Start: 99, End: 111
+
+Token...Label
+<s>            ...O
+We             ...O
+'re            ...O
+Ġtrying        ...O
+Ġto            ...O
+Ġupdate        ...O
+Ġinfo          ...O
+Ġin            ...O
+Ġdiagnostic    ...O
+Ġequipment     ...O
+Ġfor           ...O
+ĠHome          ...B-ACCOUNTNAME
+ĠLoan          ...I-ACCOUNTNAME
+ĠAccount       ...I-ACCOUNTNAME
+,              ...O
+Ġbut           ...O
+Ġit            ...O
+Ġkeeps         ...O
+Ġasking        ...O
+Ġfor           ...O
+ĠSV            ...B-PASSWORD
+kn             ...I-PASSWORD
+4              ...I-PASSWORD
+mb             ...I-PASSWORD
+E              ...I-PASSWORD
+7              ...I-PASSWORD
+d              ...I-PASSWORD
+Z              ...I-PASSWORD
+n              ...I-PASSWORD
+.              ...O
+ĠAny           ...O
+Ġideas         ...O
+?              ...O
+</s>           ...O
+

@@ -1,0 +1,622 @@
+
+--- Random Sample ---
+Source Text: "Dear Ms., We need confirmation of your 9c3b:ae59:beab:feec:ed3a:5a3c:6ee2:f87d to process your arbitration request which you placed on our website https://pessimistic-retreat.com/."
+Privacy Mask:
+  - Label: PREFIX, Value: Ms., Start: 6, End: 9
+  - Label: IP, Value: 9c3b:ae59:beab:feec:ed3a:5a3c:6ee2:f87d, Start: 40, End: 79
+  - Label: URL, Value: https://pessimistic-retreat.com/, Start: 148, End: 180
+
+Token...Label
+<s>            ...O
+"              ...O
+Dear           ...O
+ĠMs            ...B-PREFIX
+.,             ...I-PREFIX
+ĠWe            ...O
+Ġneed          ...O
+Ġconfirmation  ...O
+Ġof            ...O
+Ġyour          ...O
+Ġ9             ...B-IP
+c              ...I-IP
+3              ...I-IP
+b              ...I-IP
+:              ...I-IP
+ae             ...I-IP
+59             ...I-IP
+:              ...I-IP
+be             ...I-IP
+ab             ...I-IP
+:              ...I-IP
+fe             ...I-IP
+ec             ...I-IP
+:              ...I-IP
+ed             ...I-IP
+3              ...I-IP
+a              ...I-IP
+:              ...I-IP
+5              ...I-IP
+a              ...I-IP
+3              ...I-IP
+c              ...I-IP
+:              ...I-IP
+6              ...I-IP
+ee             ...I-IP
+2              ...I-IP
+:              ...I-IP
+f              ...I-IP
+87             ...I-IP
+d              ...I-IP
+Ġto            ...O
+Ġprocess       ...O
+Ġyour          ...O
+Ġarbitration   ...O
+Ġrequest       ...O
+Ġwhich         ...O
+Ġyou           ...O
+Ġplaced        ...O
+Ġon            ...O
+Ġour           ...O
+Ġwebsite       ...O
+Ġhttps         ...B-URL
+://            ...I-URL
+p              ...I-URL
+essim          ...I-URL
+istic          ...I-URL
+-              ...I-URL
+ret            ...I-URL
+reat           ...I-URL
+.              ...I-URL
+com            ...I-URL
+/              ...I-URL
+."             ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Reported potential sharing of exam answers over the internet during the 7:32 PM examination. The access point used had an IP address of 194.107.190.222.
+Privacy Mask:
+  - Label: TIME, Value: 7:32 PM, Start: 72, End: 79
+  - Label: IPV4, Value: 194.107.190.222, Start: 136, End: 151
+
+Token...Label
+<s>            ...O
+Rep            ...O
+orted          ...O
+Ġpotential     ...O
+Ġsharing       ...O
+Ġof            ...O
+Ġexam          ...O
+Ġanswers       ...O
+Ġover          ...O
+Ġthe           ...O
+Ġinternet      ...O
+Ġduring        ...O
+Ġthe           ...O
+Ġ7             ...B-TIME
+:              ...I-TIME
+32             ...I-TIME
+ĠPM            ...I-TIME
+Ġexamination   ...O
+.              ...O
+ĠThe           ...O
+Ġaccess        ...O
+Ġpoint         ...O
+Ġused          ...O
+Ġhad           ...O
+Ġan            ...O
+ĠIP            ...O
+Ġaddress       ...O
+Ġof            ...O
+Ġ194           ...B-IPV4
+.              ...I-IPV4
+107            ...I-IPV4
+.              ...I-IPV4
+190            ...I-IPV4
+.              ...I-IPV4
+222            ...I-IPV4
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Psychoeducation can help understand the dynamics of relationships. Session on 3/11 at 10:07am. For inquiries, contact +903.56.588-6780.
+Privacy Mask:
+  - Label: DATE, Value: 3/11, Start: 78, End: 82
+  - Label: TIME, Value: 10:07am, Start: 86, End: 93
+  - Label: PHONENUMBER, Value: +903.56.588-6780, Start: 118, End: 134
+
+Token...Label
+<s>            ...O
+Psych          ...O
+o              ...O
+education      ...O
+Ġcan           ...O
+Ġhelp          ...O
+Ġunderstand    ...O
+Ġthe           ...O
+Ġdynamics      ...O
+Ġof            ...O
+Ġrelationships ...O
+.              ...O
+ĠSession       ...O
+Ġon            ...O
+Ġ3             ...B-DATE
+/              ...I-DATE
+11             ...I-DATE
+Ġat            ...O
+Ġ10            ...B-TIME
+:              ...I-TIME
+07             ...I-TIME
+am             ...I-TIME
+.              ...O
+ĠFor           ...O
+Ġinquiries     ...O
+,              ...O
+Ġcontact       ...O
+Ġ+             ...B-PHONENUMBER
+9              ...I-PHONENUMBER
+03             ...I-PHONENUMBER
+.              ...I-PHONENUMBER
+56             ...I-PHONENUMBER
+.              ...I-PHONENUMBER
+588            ...I-PHONENUMBER
+-              ...I-PHONENUMBER
+67             ...I-PHONENUMBER
+80             ...I-PHONENUMBER
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: The 905 has a new natural remedies store. Its network connects via ccab:a078:9a14:c73b:d693:a1e3:afbb:afcb and the staff uses applications on mac address be:ca:45:9a:4f:f6 for transactions and updates. They talk highly of your alternative medical applications.
+Privacy Mask:
+  - Label: BUILDINGNUMBER, Value: 905, Start: 4, End: 7
+  - Label: IPV6, Value: ccab:a078:9a14:c73b:d693:a1e3:afbb:afcb, Start: 67, End: 106
+  - Label: MAC, Value: be:ca:45:9a:4f:f6, Start: 154, End: 171
+
+Token...Label
+<s>            ...O
+The            ...O
+Ġ9             ...B-BUILDINGNUMBER
+05             ...I-BUILDINGNUMBER
+Ġhas           ...O
+Ġa             ...O
+Ġnew           ...O
+Ġnatural       ...O
+Ġremedies      ...O
+Ġstore         ...O
+.              ...O
+ĠIts           ...O
+Ġnetwork       ...O
+Ġconnects      ...O
+Ġvia           ...O
+Ġcc            ...B-IPV6
+ab             ...I-IPV6
+:              ...I-IPV6
+a              ...I-IPV6
+07             ...I-IPV6
+8              ...I-IPV6
+:              ...I-IPV6
+9              ...I-IPV6
+a              ...I-IPV6
+14             ...I-IPV6
+:              ...I-IPV6
+c              ...I-IPV6
+73             ...I-IPV6
+b              ...I-IPV6
+:              ...I-IPV6
+d              ...I-IPV6
+693            ...I-IPV6
+:              ...I-IPV6
+a              ...I-IPV6
+1              ...I-IPV6
+e              ...I-IPV6
+3              ...I-IPV6
+:              ...I-IPV6
+af             ...I-IPV6
+bb             ...I-IPV6
+:              ...I-IPV6
+af             ...I-IPV6
+cb             ...I-IPV6
+Ġand           ...O
+Ġthe           ...O
+Ġstaff         ...O
+Ġuses          ...O
+Ġapplications  ...O
+Ġon            ...O
+Ġmac           ...O
+Ġaddress       ...O
+Ġbe            ...B-MAC
+:              ...I-MAC
+ca             ...I-MAC
+:              ...I-MAC
+45             ...I-MAC
+:              ...I-MAC
+9              ...I-MAC
+a              ...I-MAC
+:              ...I-MAC
+4              ...I-MAC
+f              ...I-MAC
+:              ...I-MAC
+f              ...I-MAC
+6              ...I-MAC
+Ġfor           ...O
+Ġtransactions  ...O
+Ġand           ...O
+Ġupdates       ...O
+.              ...O
+ĠThey          ...O
+Ġtalk          ...O
+Ġhighly        ...O
+Ġof            ...O
+Ġyour          ...O
+Ġalternative   ...O
+Ġmedical       ...O
+Ġapplications  ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Thanks for applying to our mentorship program, Edward. We will charge the registration fee of £351k to your credit card american_express 7642175943889676.
+Privacy Mask:
+  - Label: FIRSTNAME, Value: Edward, Start: 47, End: 53
+  - Label: CURRENCYSYMBOL, Value: £, Start: 94, End: 95
+  - Label: AMOUNT, Value: 351k, Start: 95, End: 99
+  - Label: CREDITCARDISSUER, Value: american_express, Start: 120, End: 136
+  - Label: CREDITCARDNUMBER, Value: 7642175943889676, Start: 137, End: 153
+
+Token...Label
+<s>            ...O
+Thanks         ...O
+Ġfor           ...O
+Ġapplying      ...O
+Ġto            ...O
+Ġour           ...O
+Ġment          ...O
+orship         ...O
+Ġprogram       ...O
+,              ...O
+ĠEdward        ...B-FIRSTNAME
+.              ...O
+ĠWe            ...O
+Ġwill          ...O
+Ġcharge        ...O
+Ġthe           ...O
+Ġregistration  ...O
+Ġfee           ...O
+Ġof            ...O
+ĠÂ£            ...B-CURRENCYSYMBOL
+351            ...B-AMOUNT
+k              ...I-AMOUNT
+Ġto            ...O
+Ġyour          ...O
+Ġcredit        ...O
+Ġcard          ...O
+Ġameric        ...B-CREDITCARDISSUER
+an             ...I-CREDITCARDISSUER
+_              ...I-CREDITCARDISSUER
+express        ...I-CREDITCARDISSUER
+Ġ7             ...B-CREDITCARDNUMBER
+64             ...I-CREDITCARDNUMBER
+217            ...I-CREDITCARDNUMBER
+59             ...I-CREDITCARDNUMBER
+438            ...I-CREDITCARDNUMBER
+89             ...I-CREDITCARDNUMBER
+676            ...I-CREDITCARDNUMBER
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: To clarify your addiction treatment progress, contact National Integration Coordinator at 24-009206-807191-6.
+Privacy Mask:
+  - Label: JOBTITLE, Value: National Integration Coordinator, Start: 54, End: 86
+  - Label: PHONEIMEI, Value: 24-009206-807191-6, Start: 90, End: 108
+
+Token...Label
+<s>            ...O
+To             ...O
+Ġclarify       ...O
+Ġyour          ...O
+Ġaddiction     ...O
+Ġtreatment     ...O
+Ġprogress      ...O
+,              ...O
+Ġcontact       ...O
+ĠNational      ...B-JOBTITLE
+ĠIntegration   ...I-JOBTITLE
+ĠCoordinator   ...I-JOBTITLE
+Ġat            ...O
+Ġ24            ...B-PHONEIMEI
+-              ...I-PHONEIMEI
+009            ...I-PHONEIMEI
+206            ...I-PHONEIMEI
+-              ...I-PHONEIMEI
+807            ...I-PHONEIMEI
+191            ...I-PHONEIMEI
+-              ...I-PHONEIMEI
+6              ...I-PHONEIMEI
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Hello Jasen, your effort as a math tutor has not gone unnoticed. We are delighted to award you a bonus in Bitcoin. You should see the bonus in your account with Bitcoin address 3CeF1RmttVGzS3rVKZUACoCbmKci39naeTVdeY.
+Privacy Mask:
+  - Label: FIRSTNAME, Value: Jasen, Start: 6, End: 11
+  - Label: BITCOINADDRESS, Value: 3CeF1RmttVGzS3rVKZUACoCbmKci39naeTVdeY, Start: 177, End: 215
+
+Token...Label
+<s>            ...O
+Hello          ...O
+ĠJas           ...B-FIRSTNAME
+en             ...I-FIRSTNAME
+,              ...O
+Ġyour          ...O
+Ġeffort        ...O
+Ġas            ...O
+Ġa             ...O
+Ġmath          ...O
+Ġtutor         ...O
+Ġhas           ...O
+Ġnot           ...O
+Ġgone          ...O
+Ġunnoticed     ...O
+.              ...O
+ĠWe            ...O
+Ġare           ...O
+Ġdelighted     ...O
+Ġto            ...O
+Ġaward         ...O
+Ġyou           ...O
+Ġa             ...O
+Ġbonus         ...O
+Ġin            ...O
+ĠBitcoin       ...O
+.              ...O
+ĠYou           ...O
+Ġshould        ...O
+Ġsee           ...O
+Ġthe           ...O
+Ġbonus         ...O
+Ġin            ...O
+Ġyour          ...O
+Ġaccount       ...O
+Ġwith          ...O
+ĠBitcoin       ...O
+Ġaddress       ...O
+Ġ3             ...B-BITCOINADDRESS
+C              ...I-BITCOINADDRESS
+e              ...I-BITCOINADDRESS
+F              ...I-BITCOINADDRESS
+1              ...I-BITCOINADDRESS
+R              ...I-BITCOINADDRESS
+m              ...I-BITCOINADDRESS
+tt             ...I-BITCOINADDRESS
+VG             ...I-BITCOINADDRESS
+z              ...I-BITCOINADDRESS
+S              ...I-BITCOINADDRESS
+3              ...I-BITCOINADDRESS
+r              ...I-BITCOINADDRESS
+VK             ...I-BITCOINADDRESS
+Z              ...I-BITCOINADDRESS
+U              ...I-BITCOINADDRESS
+AC             ...I-BITCOINADDRESS
+o              ...I-BITCOINADDRESS
+C              ...I-BITCOINADDRESS
+bm             ...I-BITCOINADDRESS
+K              ...I-BITCOINADDRESS
+ci             ...I-BITCOINADDRESS
+39             ...I-BITCOINADDRESS
+na             ...I-BITCOINADDRESS
+e              ...I-BITCOINADDRESS
+TV             ...I-BITCOINADDRESS
+de             ...I-BITCOINADDRESS
+Y              ...I-BITCOINADDRESS
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Kaia_Runolfsdottir2, can you organise a training for the use of software version mentioned in Useragent Mozilla/5.0 (Macintosh; PPC Mac OS X 10.8.8; rv:7.1) Gecko/20100101 Firefox/7.1.7?
+Privacy Mask:
+  - Label: USERNAME, Value: Kaia_Runolfsdottir2, Start: 0, End: 19
+  - Label: USERAGENT, Value: Mozilla/5.0 (Macintosh; PPC Mac OS X 10.8.8; rv:7.1) Gecko/20100101 Firefox/7.1.7, Start: 104, End: 185
+
+Token...Label
+<s>            ...O
+Ka             ...B-USERNAME
+ia             ...I-USERNAME
+_              ...I-USERNAME
+Run            ...I-USERNAME
+olf            ...I-USERNAME
+sd             ...I-USERNAME
+ott            ...I-USERNAME
+ir             ...I-USERNAME
+2              ...I-USERNAME
+,              ...O
+Ġcan           ...O
+Ġyou           ...O
+Ġorganise      ...O
+Ġa             ...O
+Ġtraining      ...O
+Ġfor           ...O
+Ġthe           ...O
+Ġuse           ...O
+Ġof            ...O
+Ġsoftware      ...O
+Ġversion       ...O
+Ġmentioned     ...O
+Ġin            ...O
+ĠUser          ...O
+agent          ...O
+ĠMozilla       ...B-USERAGENT
+/              ...I-USERAGENT
+5              ...I-USERAGENT
+.              ...I-USERAGENT
+0              ...I-USERAGENT
+Ġ(             ...I-USERAGENT
+Mac            ...I-USERAGENT
+intosh         ...I-USERAGENT
+;              ...I-USERAGENT
+ĠP             ...I-USERAGENT
+PC             ...I-USERAGENT
+ĠMac           ...I-USERAGENT
+ĠOS            ...I-USERAGENT
+ĠX             ...I-USERAGENT
+Ġ10            ...I-USERAGENT
+.              ...I-USERAGENT
+8              ...I-USERAGENT
+.              ...I-USERAGENT
+8              ...I-USERAGENT
+;              ...I-USERAGENT
+Ġr             ...I-USERAGENT
+v              ...I-USERAGENT
+:              ...I-USERAGENT
+7              ...I-USERAGENT
+.              ...I-USERAGENT
+1              ...I-USERAGENT
+)              ...I-USERAGENT
+ĠGe            ...I-USERAGENT
+cko            ...I-USERAGENT
+/              ...I-USERAGENT
+201            ...I-USERAGENT
+001            ...I-USERAGENT
+01             ...I-USERAGENT
+ĠFirefox       ...I-USERAGENT
+/              ...I-USERAGENT
+7              ...I-USERAGENT
+.              ...I-USERAGENT
+1              ...I-USERAGENT
+.              ...I-USERAGENT
+7              ...I-USERAGENT
+?              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: We've detected some unusual ID attempts from this IP a8ee:d754:ac01:346b:4c3e:044a:ddd0:b685 which has been linked with client account 857 75 6661.
+Privacy Mask:
+  - Label: IP, Value: a8ee:d754:ac01:346b:4c3e:044a:ddd0:b685, Start: 53, End: 92
+  - Label: SSN, Value: 857 75 6661, Start: 135, End: 146
+
+Token...Label
+<s>            ...O
+We             ...O
+'ve            ...O
+Ġdetected      ...O
+Ġsome          ...O
+Ġunusual       ...O
+ĠID            ...O
+Ġattempts      ...O
+Ġfrom          ...O
+Ġthis          ...O
+ĠIP            ...O
+Ġa             ...B-IP
+8              ...I-IP
+ee             ...I-IP
+:              ...I-IP
+d              ...I-IP
+754            ...I-IP
+:              ...I-IP
+ac             ...I-IP
+01             ...I-IP
+:              ...I-IP
+346            ...I-IP
+b              ...I-IP
+:              ...I-IP
+4              ...I-IP
+c              ...I-IP
+3              ...I-IP
+e              ...I-IP
+:              ...I-IP
+044            ...I-IP
+a              ...I-IP
+:              ...I-IP
+dd             ...I-IP
+d              ...I-IP
+0              ...I-IP
+:              ...I-IP
+b              ...I-IP
+685            ...I-IP
+Ġwhich         ...O
+Ġhas           ...O
+Ġbeen          ...O
+Ġlinked        ...O
+Ġwith          ...O
+Ġclient        ...O
+Ġaccount       ...O
+Ġ8             ...B-SSN
+57             ...I-SSN
+Ġ75            ...I-SSN
+Ġ666           ...I-SSN
+1              ...I-SSN
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: As an addiction treatment center, we strive to provide optimal services. You're expected to process payments online via 4786796276315465, visa. Use CVV 448. Receipt will be sent to Kaylie65@gmail.com.
+Privacy Mask:
+  - Label: CREDITCARDNUMBER, Value: 4786796276315465, Start: 120, End: 136
+  - Label: CREDITCARDISSUER, Value: visa, Start: 138, End: 142
+  - Label: CREDITCARDCVV, Value: 448, Start: 152, End: 155
+  - Label: EMAIL, Value: Kaylie65@gmail.com, Start: 181, End: 199
+
+Token...Label
+<s>            ...O
+As             ...O
+Ġan            ...O
+Ġaddiction     ...O
+Ġtreatment     ...O
+Ġcenter        ...O
+,              ...O
+Ġwe            ...O
+Ġstrive        ...O
+Ġto            ...O
+Ġprovide       ...O
+Ġoptimal       ...O
+Ġservices      ...O
+.              ...O
+ĠYou           ...O
+'re            ...O
+Ġexpected      ...O
+Ġto            ...O
+Ġprocess       ...O
+Ġpayments      ...O
+Ġonline        ...O
+Ġvia           ...O
+Ġ4             ...B-CREDITCARDNUMBER
+78             ...I-CREDITCARDNUMBER
+67             ...I-CREDITCARDNUMBER
+96             ...I-CREDITCARDNUMBER
+27             ...I-CREDITCARDNUMBER
+63             ...I-CREDITCARDNUMBER
+154            ...I-CREDITCARDNUMBER
+65             ...I-CREDITCARDNUMBER
+,              ...O
+Ġvisa          ...B-CREDITCARDISSUER
+.              ...O
+ĠUse           ...O
+ĠCV            ...O
+V              ...O
+Ġ448           ...B-CREDITCARDCVV
+.              ...O
+ĠRece          ...O
+ipt            ...O
+Ġwill          ...O
+Ġbe            ...O
+Ġsent          ...O
+Ġto            ...O
+ĠKay           ...B-EMAIL
+lie            ...I-EMAIL
+65             ...I-EMAIL
+@              ...I-EMAIL
+gmail          ...I-EMAIL
+.              ...I-EMAIL
+com            ...I-EMAIL
+.              ...O
+</s>           ...O
+

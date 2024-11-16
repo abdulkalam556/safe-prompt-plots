@@ -1,0 +1,641 @@
+
+--- Random Sample ---
+Source Text: Dear Miss Enoch Alex Brakus,
+We have detected unusual activity on your corporate operations account 48641951. A transaction for an amount of ៛0.52m has been initiated. For further details, please login to our website https://calculating-grandson.biz/ or use the provided IPV4 protocol 251.244.35.93.
+Privacy Mask:
+  - Label: PREFIX, Value: Miss, Start: 5, End: 9
+  - Label: FIRSTNAME, Value: Enoch, Start: 10, End: 15
+  - Label: MIDDLENAME, Value: Alex, Start: 16, End: 20
+  - Label: LASTNAME, Value: Brakus, Start: 21, End: 27
+  - Label: ACCOUNTNUMBER, Value: 48641951, Start: 100, End: 108
+  - Label: CURRENCYSYMBOL, Value: ៛, Start: 141, End: 142
+  - Label: AMOUNT, Value: 0.52m, Start: 142, End: 147
+  - Label: URL, Value: https://calculating-grandson.biz/, Start: 217, End: 250
+  - Label: IPV4, Value: 251.244.35.93, Start: 285, End: 298
+
+Token...Label
+[CLS]          ...O
+Dear           ...O
+Miss           ...B-PREFIX
+En             ...B-FIRSTNAME
+##och          ...I-FIRSTNAME
+Alex           ...B-MIDDLENAME
+B              ...B-LASTNAME
+##rak          ...I-LASTNAME
+##us           ...I-LASTNAME
+,              ...O
+We             ...O
+have           ...O
+detected       ...O
+unusual        ...O
+activity       ...O
+on             ...O
+your           ...O
+corporate      ...O
+operations     ...O
+account        ...O
+48             ...B-ACCOUNTNUMBER
+##64           ...I-ACCOUNTNUMBER
+##19           ...I-ACCOUNTNUMBER
+##51           ...I-ACCOUNTNUMBER
+.              ...O
+A              ...O
+transaction    ...O
+for            ...O
+an             ...O
+amount         ...O
+of             ...O
+[UNK]          ...B-AMOUNT
+.              ...I-AMOUNT
+52             ...I-AMOUNT
+##m            ...I-AMOUNT
+has            ...O
+been           ...O
+initiated      ...O
+.              ...O
+For            ...O
+further        ...O
+details        ...O
+,              ...O
+please         ...O
+log            ...O
+##in           ...O
+to             ...O
+our            ...O
+website        ...O
+https          ...B-URL
+:              ...I-URL
+/              ...I-URL
+/              ...I-URL
+calculating    ...I-URL
+-              ...I-URL
+grandson       ...I-URL
+.              ...I-URL
+bi             ...I-URL
+##z            ...I-URL
+/              ...I-URL
+or             ...O
+use            ...O
+the            ...O
+provided       ...O
+IP             ...O
+##V            ...O
+##4            ...O
+protocol       ...O
+251            ...B-IPV4
+.              ...I-IPV4
+244            ...I-IPV4
+.              ...I-IPV4
+35             ...I-IPV4
+.              ...I-IPV4
+93             ...I-IPV4
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: She is a Female Non-binary born on 1975-03-06T21:07:00.707Z. Her registration for the pediatrics class was done via CY130398732322T899B51242L5I5.
+Privacy Mask:
+  - Label: SEX, Value: Female, Start: 9, End: 15
+  - Label: GENDER, Value: Non-binary, Start: 16, End: 26
+  - Label: DOB, Value: 1975-03-06T21:07:00.707Z, Start: 35, End: 59
+  - Label: IBAN, Value: CY130398732322T899B51242L5I5, Start: 116, End: 144
+
+Token...Label
+[CLS]          ...O
+She            ...O
+is             ...O
+a              ...O
+Female         ...B-SEX
+Non            ...B-GENDER
+-              ...I-GENDER
+binary         ...I-GENDER
+born           ...O
+on             ...O
+1975           ...B-DOB
+-              ...I-DOB
+03             ...I-DOB
+-              ...I-DOB
+06             ...I-DOB
+##T            ...I-DOB
+##21           ...I-DOB
+:              ...I-DOB
+07             ...I-DOB
+:              ...I-DOB
+00             ...I-DOB
+.              ...I-DOB
+70             ...I-DOB
+##7            ...I-DOB
+##Z            ...I-DOB
+.              ...O
+Her            ...O
+registration   ...O
+for            ...O
+the            ...O
+p              ...O
+##ediatric     ...O
+##s            ...O
+class          ...O
+was            ...O
+done           ...O
+via            ...O
+C              ...B-IBAN
+##Y            ...I-IBAN
+##13           ...I-IBAN
+##0            ...I-IBAN
+##39           ...I-IBAN
+##8            ...I-IBAN
+##7            ...I-IBAN
+##32           ...I-IBAN
+##32           ...I-IBAN
+##2            ...I-IBAN
+##T            ...I-IBAN
+##8            ...I-IBAN
+##9            ...I-IBAN
+##9            ...I-IBAN
+##B            ...I-IBAN
+##51           ...I-IBAN
+##24           ...I-IBAN
+##2            ...I-IBAN
+##L            ...I-IBAN
+##5            ...I-IBAN
+##I            ...I-IBAN
+##5            ...I-IBAN
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Dear all, Remember to set your location to [-47.196,-101.0005] and sign in using your Mozilla/5.0 (Windows; U; Windows NT 5.1) AppleWebKit/537.2.2 (KHTML, like Gecko) Chrome/14.0.834.0 Safari/537.2.2 to access the STEM web seminars.
+Privacy Mask:
+  - Label: NEARBYGPSCOORDINATE, Value: [-47.196,-101.0005], Start: 43, End: 62
+  - Label: USERAGENT, Value: Mozilla/5.0 (Windows; U; Windows NT 5.1) AppleWebKit/537.2.2 (KHTML, like Gecko) Chrome/14.0.834.0 Safari/537.2.2, Start: 86, End: 199
+
+Token...Label
+[CLS]          ...O
+Dear           ...O
+all            ...O
+,              ...O
+Remember       ...O
+to             ...O
+set            ...O
+your           ...O
+location       ...O
+to             ...O
+[              ...B-NEARBYGPSCOORDINATE
+-              ...I-NEARBYGPSCOORDINATE
+47             ...I-NEARBYGPSCOORDINATE
+.              ...I-NEARBYGPSCOORDINATE
+196            ...I-NEARBYGPSCOORDINATE
+,              ...I-NEARBYGPSCOORDINATE
+-              ...I-NEARBYGPSCOORDINATE
+101            ...I-NEARBYGPSCOORDINATE
+.              ...I-NEARBYGPSCOORDINATE
+000            ...I-NEARBYGPSCOORDINATE
+##5            ...I-NEARBYGPSCOORDINATE
+]              ...I-NEARBYGPSCOORDINATE
+and            ...O
+sign           ...O
+in             ...O
+using          ...O
+your           ...O
+Mo             ...B-USERAGENT
+##zilla        ...I-USERAGENT
+/              ...I-USERAGENT
+5              ...I-USERAGENT
+.              ...I-USERAGENT
+0              ...I-USERAGENT
+(              ...I-USERAGENT
+Windows        ...I-USERAGENT
+;              ...I-USERAGENT
+U              ...I-USERAGENT
+;              ...I-USERAGENT
+Windows        ...I-USERAGENT
+N              ...I-USERAGENT
+##T            ...I-USERAGENT
+5              ...I-USERAGENT
+.              ...I-USERAGENT
+1              ...I-USERAGENT
+)              ...I-USERAGENT
+Apple          ...I-USERAGENT
+##W            ...I-USERAGENT
+##eb           ...I-USERAGENT
+##K            ...I-USERAGENT
+##it           ...I-USERAGENT
+/              ...I-USERAGENT
+53             ...I-USERAGENT
+##7            ...I-USERAGENT
+.              ...I-USERAGENT
+2              ...I-USERAGENT
+.              ...I-USERAGENT
+2              ...I-USERAGENT
+(              ...I-USERAGENT
+K              ...I-USERAGENT
+##HT           ...I-USERAGENT
+##ML           ...I-USERAGENT
+,              ...I-USERAGENT
+like           ...I-USERAGENT
+G              ...I-USERAGENT
+##eck          ...I-USERAGENT
+##o            ...I-USERAGENT
+)              ...I-USERAGENT
+Ch             ...I-USERAGENT
+##rome         ...I-USERAGENT
+/              ...I-USERAGENT
+14             ...I-USERAGENT
+.              ...I-USERAGENT
+0              ...I-USERAGENT
+.              ...I-USERAGENT
+83             ...I-USERAGENT
+##4            ...I-USERAGENT
+.              ...I-USERAGENT
+0              ...I-USERAGENT
+Sa             ...I-USERAGENT
+##fari         ...I-USERAGENT
+/              ...I-USERAGENT
+53             ...I-USERAGENT
+##7            ...I-USERAGENT
+.              ...I-USERAGENT
+2              ...I-USERAGENT
+.              ...I-USERAGENT
+2              ...I-USERAGENT
+to             ...O
+access         ...O
+the            ...O
+ST             ...O
+##EM           ...O
+web            ...O
+seminars       ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Hello Ms. Fay, our records show that you live in East Sussex, Pennsylvania. Considering your location's particular nutritional needs, our team consisting of Global Implementation Analyst along with dieticians will work out a plan thats suits your lifestyle.
+Privacy Mask:
+  - Label: PREFIX, Value: Ms., Start: 6, End: 9
+  - Label: LASTNAME, Value: Fay, Start: 10, End: 13
+  - Label: COUNTY, Value: East Sussex, Start: 49, End: 60
+  - Label: STATE, Value: Pennsylvania, Start: 62, End: 74
+  - Label: JOBTITLE, Value: Global Implementation Analyst, Start: 157, End: 186
+
+Token...Label
+[CLS]          ...O
+Hello          ...O
+Ms             ...B-PREFIX
+.              ...I-PREFIX
+Fay            ...B-LASTNAME
+,              ...O
+our            ...O
+records        ...O
+show           ...O
+that           ...O
+you            ...O
+live           ...O
+in             ...O
+East           ...B-COUNTY
+Sussex         ...I-COUNTY
+,              ...O
+Pennsylvania   ...B-STATE
+.              ...O
+Considering    ...O
+your           ...O
+location       ...O
+'              ...O
+s              ...O
+particular     ...O
+nutrition      ...O
+##al           ...O
+needs          ...O
+,              ...O
+our            ...O
+team           ...O
+consisting     ...O
+of             ...O
+Global         ...B-JOBTITLE
+I              ...I-JOBTITLE
+##mple         ...I-JOBTITLE
+##mentation    ...I-JOBTITLE
+Ana            ...I-JOBTITLE
+##ly           ...I-JOBTITLE
+##st           ...I-JOBTITLE
+along          ...O
+with           ...O
+diet           ...O
+##ici          ...O
+##ans          ...O
+will           ...O
+work           ...O
+out            ...O
+a              ...O
+plan           ...O
+that           ...O
+##s            ...O
+suits          ...O
+your           ...O
+lifestyle      ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: The diagnostic tech from Klocko and Sons underperforms. Consider dropping tie-up talks. We'll discuss it further in Manitoba.
+Privacy Mask:
+  - Label: COMPANYNAME, Value: Klocko and Sons, Start: 25, End: 40
+  - Label: STATE, Value: Manitoba, Start: 116, End: 124
+
+Token...Label
+[CLS]          ...O
+The            ...O
+diagnostic     ...O
+tech           ...O
+from           ...O
+K              ...B-COMPANYNAME
+##lock         ...I-COMPANYNAME
+##o            ...I-COMPANYNAME
+and            ...I-COMPANYNAME
+Sons           ...I-COMPANYNAME
+under          ...O
+##per          ...O
+##form         ...O
+##s            ...O
+.              ...O
+Consider       ...O
+dropping       ...O
+tie            ...O
+-              ...O
+up             ...O
+talks          ...O
+.              ...O
+We             ...O
+'              ...O
+ll             ...O
+discuss        ...O
+it             ...O
+further        ...O
+in             ...O
+Manitoba       ...B-STATE
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Your SSN 756.9958.1995 has been encrypted for your data's safety under our surveillance system using the IPv6 server address 7ab6:ec46:f129:d948:f9e9:9049:37c1:bd13.
+Privacy Mask:
+  - Label: SSN, Value: 756.9958.1995, Start: 9, End: 22
+  - Label: IPV6, Value: 7ab6:ec46:f129:d948:f9e9:9049:37c1:bd13, Start: 125, End: 164
+
+Token...Label
+[CLS]          ...O
+Your           ...O
+SS             ...O
+##N            ...O
+75             ...B-SSN
+##6            ...I-SSN
+.              ...I-SSN
+99             ...I-SSN
+##5            ...I-SSN
+##8            ...I-SSN
+.              ...I-SSN
+1995           ...I-SSN
+has            ...O
+been           ...O
+en             ...O
+##c            ...O
+##ry           ...O
+##pted         ...O
+for            ...O
+your           ...O
+data           ...O
+'              ...O
+s              ...O
+safety         ...O
+under          ...O
+our            ...O
+surveillance   ...O
+system         ...O
+using          ...O
+the            ...O
+IP             ...O
+##v            ...O
+##6            ...O
+server         ...O
+address        ...O
+7              ...B-IPV6
+##ab           ...I-IPV6
+##6            ...I-IPV6
+:              ...I-IPV6
+e              ...I-IPV6
+##c            ...I-IPV6
+##46           ...I-IPV6
+:              ...I-IPV6
+f              ...I-IPV6
+##12           ...I-IPV6
+##9            ...I-IPV6
+:              ...I-IPV6
+d              ...I-IPV6
+##9            ...I-IPV6
+##48           ...I-IPV6
+:              ...I-IPV6
+f              ...I-IPV6
+##9            ...I-IPV6
+##e            ...I-IPV6
+##9            ...I-IPV6
+:              ...I-IPV6
+90             ...I-IPV6
+##4            ...I-IPV6
+##9            ...I-IPV6
+:              ...I-IPV6
+37             ...I-IPV6
+##c            ...I-IPV6
+##1            ...I-IPV6
+:              ...I-IPV6
+b              ...I-IPV6
+##d            ...I-IPV6
+##13           ...I-IPV6
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: There's a financial matter that needs your attention. A Argentine Peso transaction of 780,532.19 ﷼ has been made to an unverified account. Please look into it.
+Privacy Mask:
+  - Label: CURRENCY, Value: Argentine Peso, Start: 56, End: 70
+  - Label: AMOUNT, Value: 780,532.19, Start: 86, End: 96
+  - Label: CURRENCYSYMBOL, Value: ﷼, Start: 97, End: 98
+
+Token...Label
+[CLS]          ...O
+There          ...O
+'              ...O
+s              ...O
+a              ...O
+financial      ...O
+matter         ...O
+that           ...O
+needs          ...O
+your           ...O
+attention      ...O
+.              ...O
+A              ...O
+Argentine      ...B-CURRENCY
+P              ...I-CURRENCY
+##es           ...I-CURRENCY
+##o            ...I-CURRENCY
+transaction    ...O
+of             ...O
+78             ...B-AMOUNT
+##0            ...I-AMOUNT
+,              ...I-AMOUNT
+53             ...I-AMOUNT
+##2            ...I-AMOUNT
+.              ...I-AMOUNT
+19             ...I-AMOUNT
+[UNK]          ...B-CURRENCYSYMBOL
+has            ...O
+been           ...O
+made           ...O
+to             ...O
+an             ...O
+un             ...O
+##ver          ...O
+##ified        ...O
+account        ...O
+.              ...O
+Please         ...O
+look           ...O
+into           ...O
+it             ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: In regards to the call on 11 AM, municipal law lawsuit about Haley Mall area is going through, 90-586254-204874-8. Please get back soon.
+Privacy Mask:
+  - Label: TIME, Value: 11 AM, Start: 26, End: 31
+  - Label: STREET, Value: Haley Mall, Start: 61, End: 71
+  - Label: PHONEIMEI, Value: 90-586254-204874-8, Start: 95, End: 113
+
+Token...Label
+[CLS]          ...O
+In             ...O
+regards        ...O
+to             ...O
+the            ...O
+call           ...O
+on             ...O
+11             ...B-TIME
+AM             ...I-TIME
+,              ...O
+municipal      ...O
+law            ...O
+lawsuit        ...O
+about          ...O
+Haley          ...B-STREET
+Mall           ...I-STREET
+area           ...O
+is             ...O
+going          ...O
+through        ...O
+,              ...O
+90             ...B-PHONEIMEI
+-              ...I-PHONEIMEI
+58             ...I-PHONEIMEI
+##6            ...I-PHONEIMEI
+##25           ...I-PHONEIMEI
+##4            ...I-PHONEIMEI
+-              ...I-PHONEIMEI
+204            ...I-PHONEIMEI
+##8            ...I-PHONEIMEI
+##7            ...I-PHONEIMEI
+##4            ...I-PHONEIMEI
+-              ...I-PHONEIMEI
+8              ...I-PHONEIMEI
+.              ...O
+Please         ...O
+get            ...O
+back           ...O
+soon           ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Liliane_Dietrich78, who identifies as Transgender person, has reached out inquiring about our counseling services.
+Privacy Mask:
+  - Label: USERNAME, Value: Liliane_Dietrich78, Start: 0, End: 18
+  - Label: GENDER, Value: Transgender person, Start: 38, End: 56
+
+Token...Label
+[CLS]          ...O
+Lil            ...B-USERNAME
+##ian          ...I-USERNAME
+##e            ...I-USERNAME
+_              ...I-USERNAME
+Dietrich       ...I-USERNAME
+##7            ...I-USERNAME
+##8            ...I-USERNAME
+,              ...O
+who            ...O
+identifies     ...O
+as             ...O
+Trans          ...B-GENDER
+##gen          ...I-GENDER
+##der          ...I-GENDER
+person         ...I-GENDER
+,              ...O
+has            ...O
+reached        ...O
+out            ...O
+in             ...O
+##qui          ...O
+##ring         ...O
+about          ...O
+our            ...O
+counseling     ...O
+services       ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Kaelyn, we've noticed your blue in the genetic study results. The data is fascinating. Can we include you in the extended study?
+Privacy Mask:
+  - Label: FIRSTNAME, Value: Kaelyn, Start: 0, End: 6
+  - Label: EYECOLOR, Value: blue, Start: 27, End: 31
+
+Token...Label
+[CLS]          ...O
+Ka             ...B-FIRSTNAME
+##ely          ...I-FIRSTNAME
+##n            ...I-FIRSTNAME
+,              ...O
+we             ...O
+'              ...O
+ve             ...O
+noticed        ...O
+your           ...O
+blue           ...B-EYECOLOR
+in             ...O
+the            ...O
+genetic        ...O
+study          ...O
+results        ...O
+.              ...O
+The            ...O
+data           ...O
+is             ...O
+fascinating    ...O
+.              ...O
+Can            ...O
+we             ...O
+include        ...O
+you            ...O
+in             ...O
+the            ...O
+extended       ...O
+study          ...O
+?              ...O
+[SEP]          ...O
+
