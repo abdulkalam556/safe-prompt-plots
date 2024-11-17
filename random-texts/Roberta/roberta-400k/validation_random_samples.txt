@@ -1,0 +1,522 @@
+
+--- Random Sample ---
+Source Text: Make sure each entry in the health records includes a validated 97929.95108 and accurate Basement 156 for each person.
+Privacy Mask:
+  - Label: TAXNUM, Value: 97929.95108, Start: 64, End: 75
+
+Token...Label
+<s>            ...O
+Make           ...O
+Ġsure          ...O
+Ġeach          ...O
+Ġentry         ...O
+Ġin            ...O
+Ġthe           ...O
+Ġhealth        ...O
+Ġrecords       ...O
+Ġincludes      ...O
+Ġa             ...O
+Ġvalidated     ...O
+Ġ9             ...B-TAXNUM
+79             ...I-TAXNUM
+29             ...I-TAXNUM
+.              ...I-TAXNUM
+95             ...I-TAXNUM
+108            ...I-TAXNUM
+Ġand           ...O
+Ġaccurate      ...O
+ĠBas           ...O
+ement          ...O
+Ġ156           ...O
+Ġfor           ...O
+Ġeach          ...O
+Ġperson        ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Afternoon Jermolajevs, new policy for Medical physicist is in effect. Review before our meeting at 10.
+Privacy Mask:
+  - Label: SURNAME, Value: Jermolajevs, Start: 10, End: 21
+
+Token...Label
+<s>            ...O
+After          ...O
+noon           ...O
+ĠJer           ...B-SURNAME
+mol            ...I-SURNAME
+aj             ...I-SURNAME
+ev             ...I-SURNAME
+s              ...I-SURNAME
+,              ...O
+Ġnew           ...O
+Ġpolicy        ...O
+Ġfor           ...O
+ĠMedical       ...O
+Ġphysicist     ...O
+Ġis            ...O
+Ġin            ...O
+Ġeffect        ...O
+.              ...O
+ĠReview        ...O
+Ġbefore        ...O
+Ġour           ...O
+Ġmeeting       ...O
+Ġat            ...O
+Ġ10            ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Evaluation completed for Esat. Multiple sessions at 773 recommending extension of current treatment until March 5th, 2061.
+Privacy Mask:
+  - Label: SURNAME, Value: Esat, Start: 25, End: 29
+  - Label: BUILDINGNUM, Value: 773, Start: 52, End: 55
+
+Token...Label
+<s>            ...O
+E              ...O
+val            ...O
+uation         ...O
+Ġcompleted     ...O
+Ġfor           ...O
+ĠEs            ...B-SURNAME
+at             ...I-SURNAME
+.              ...O
+ĠMultiple      ...O
+Ġsessions      ...O
+Ġat            ...O
+Ġ7             ...B-BUILDINGNUM
+73             ...I-BUILDINGNUM
+Ġrecommending  ...O
+Ġextension     ...O
+Ġof            ...O
+Ġcurrent       ...O
+Ġtreatment     ...O
+Ġuntil         ...O
+ĠMarch         ...O
+Ġ5             ...O
+th             ...O
+,              ...O
+Ġ20            ...O
+61             ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Hi Adv, ensure all details for Walpert in ENG are correct. Their 278517598 is linked incorrectly to Kenzo's records, needs immediate attention.
+Privacy Mask:
+  - Label: SURNAME, Value: Walpert, Start: 31, End: 38
+  - Label: GIVENNAME, Value: Kenzo, Start: 100, End: 105
+
+Token...Label
+<s>            ...O
+Hi             ...O
+ĠAdv           ...O
+,              ...O
+Ġensure        ...O
+Ġall           ...O
+Ġdetails       ...O
+Ġfor           ...O
+ĠWal           ...B-SURNAME
+pert           ...I-SURNAME
+Ġin            ...O
+ĠENG           ...O
+Ġare           ...O
+Ġcorrect       ...O
+.              ...O
+ĠTheir         ...O
+Ġ27            ...O
+85             ...O
+17             ...O
+598            ...O
+Ġis            ...O
+Ġlinked        ...O
+Ġincorrectly   ...O
+Ġto            ...O
+ĠKen           ...B-GIVENNAME
+zo             ...I-GIVENNAME
+'s             ...O
+Ġrecords       ...O
+,              ...O
+Ġneeds         ...O
+Ġimmediate     ...O
+Ġattention     ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: <html><body>Goal: Transition into environmental consulting. Plan of action:
+1. Obtain relevant certification EFHU-2030-6796.
+2. Allocate budget for course fees, card: 22044/CVV 285.
+3. Network with industry professionals.
+4. Develop a professional portfolio. 08:69:0c:28:e5:78</body></html>
+Privacy Mask:
+
+Token...Label
+<s>            ...O
+<              ...O
+html           ...O
+><             ...O
+body           ...O
+>              ...O
+Goal           ...O
+:              ...O
+ĠTransition    ...O
+Ġinto          ...O
+Ġenvironmental ...O
+Ġconsulting    ...O
+.              ...O
+ĠPlan          ...O
+Ġof            ...O
+Ġaction        ...O
+:              ...O
+Ċ              ...O
+1              ...O
+.              ...O
+ĠOb            ...O
+tain           ...O
+Ġrelevant      ...O
+Ġcertification ...O
+ĠEF            ...O
+H              ...O
+U              ...O
+-              ...O
+20             ...O
+30             ...O
+-              ...O
+67             ...O
+96             ...O
+.              ...O
+Ċ              ...O
+2              ...O
+.              ...O
+ĠAll           ...O
+ocate          ...O
+Ġbudget        ...O
+Ġfor           ...O
+Ġcourse        ...O
+Ġfees          ...O
+,              ...O
+Ġcard          ...O
+:              ...O
+Ġ220           ...O
+44             ...O
+/              ...O
+CV             ...O
+V              ...O
+Ġ285           ...O
+.              ...O
+Ċ              ...O
+3              ...O
+.              ...O
+ĠNetwork       ...O
+Ġwith          ...O
+Ġindustry      ...O
+Ġprofessionals ...O
+.              ...O
+Ċ              ...O
+4              ...O
+.              ...O
+ĠDevelop       ...O
+Ġa             ...O
+Ġprofessional  ...O
+Ġportfolio     ...O
+.              ...O
+Ġ08            ...O
+:              ...O
+69             ...O
+:              ...O
+0              ...O
+c              ...O
+:              ...O
+28             ...O
+:              ...O
+e              ...O
+5              ...O
+:              ...O
+78             ...O
+</             ...O
+body           ...O
+></            ...O
+html           ...O
+>              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Verify info: 374280, Building#: 2601, SSN: 972-86-0502, Northwest.
+Privacy Mask:
+  - Label: BUILDINGNUM, Value: 2601, Start: 32, End: 36
+  - Label: SOCIALNUM, Value: 972-86-0502, Start: 43, End: 54
+
+Token...Label
+<s>            ...O
+Ver            ...O
+ify            ...O
+Ġinfo          ...O
+:              ...O
+Ġ37            ...O
+42             ...O
+80             ...O
+,              ...O
+ĠBuilding      ...O
+#              ...O
+:              ...O
+Ġ26            ...B-BUILDINGNUM
+01             ...I-BUILDINGNUM
+,              ...O
+ĠSS            ...O
+N              ...O
+:              ...O
+Ġ9             ...B-SOCIALNUM
+72             ...I-SOCIALNUM
+-              ...I-SOCIALNUM
+86             ...I-SOCIALNUM
+-              ...I-SOCIALNUM
+050            ...I-SOCIALNUM
+2              ...I-SOCIALNUM
+,              ...O
+ĠNorthwest     ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Hey, just received the population health data from Smith, Murphy and Davies. All entries must include a 815k check and verify their 962280569681476. Please ensure compliance.
+Privacy Mask:
+  - Label: ACCOUNTNUM, Value: 962280569681476, Start: 132, End: 147
+
+Token...Label
+<s>            ...O
+Hey            ...O
+,              ...O
+Ġjust          ...O
+Ġreceived      ...O
+Ġthe           ...O
+Ġpopulation    ...O
+Ġhealth        ...O
+Ġdata          ...O
+Ġfrom          ...O
+ĠSmith         ...O
+,              ...O
+ĠMurphy        ...O
+Ġand           ...O
+ĠDavies        ...O
+.              ...O
+ĠAll           ...O
+Ġentries       ...O
+Ġmust          ...O
+Ġinclude       ...O
+Ġa             ...O
+Ġ8             ...O
+15             ...O
+k              ...O
+Ġcheck         ...O
+Ġand           ...O
+Ġverify        ...O
+Ġtheir         ...O
+Ġ96            ...B-ACCOUNTNUM
+22             ...I-ACCOUNTNUM
+805            ...I-ACCOUNTNUM
+69             ...I-ACCOUNTNUM
+68             ...I-ACCOUNTNUM
+14             ...I-ACCOUNTNUM
+76             ...I-ACCOUNTNUM
+.              ...O
+ĠPlease        ...O
+Ġensure        ...O
+Ġcompliance    ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: App Engagement Record:
+City: Leicester Rothley
+URL Accessed: http://ahmed.com/
+User Age: 60
+Driver License: SIEGL-606284-9-061
+Building: 1779
+Gender: F
+Privacy Mask:
+  - Label: CITY, Value: Leicester Rothley, Start: 29, End: 46
+  - Label: DRIVERLICENSENUM, Value: SIEGL-606284-9-061, Start: 108, End: 126
+  - Label: BUILDINGNUM, Value: 1779, Start: 137, End: 141
+
+Token...Label
+<s>            ...O
+App            ...O
+ĠEng           ...O
+agement        ...O
+ĠRecord        ...O
+:              ...O
+Ċ              ...O
+City           ...O
+:              ...O
+ĠLeicester     ...B-CITY
+ĠRoth          ...I-CITY
+ley            ...I-CITY
+Ċ              ...O
+URL            ...O
+ĠAccessed      ...O
+:              ...O
+Ġhttp          ...O
+://            ...O
+ah             ...O
+med            ...O
+.              ...O
+com            ...O
+/              ...O
+Ċ              ...O
+User           ...O
+ĠAge           ...O
+:              ...O
+Ġ60            ...O
+Ċ              ...O
+Driver         ...O
+ĠLicense       ...O
+:              ...O
+ĠSI            ...B-DRIVERLICENSENUM
+EG             ...I-DRIVERLICENSENUM
+L              ...I-DRIVERLICENSENUM
+-              ...I-DRIVERLICENSENUM
+606            ...I-DRIVERLICENSENUM
+284            ...I-DRIVERLICENSENUM
+-              ...I-DRIVERLICENSENUM
+9              ...I-DRIVERLICENSENUM
+-              ...I-DRIVERLICENSENUM
+06             ...I-DRIVERLICENSENUM
+1              ...I-DRIVERLICENSENUM
+Ċ              ...O
+Building       ...O
+:              ...O
+Ġ17            ...B-BUILDINGNUM
+79             ...I-BUILDINGNUM
+Ċ              ...O
+Gender         ...O
+:              ...O
+ĠF             ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: During the last conversation, you mentioned some financial stress. Please bring your statement with the CVV [CREDITCARDEXPIRYCREDITCARDCVV_1] to our next meeting.
+Privacy Mask:
+
+Token...Label
+<s>            ...O
+During         ...O
+Ġthe           ...O
+Ġlast          ...O
+Ġconversation  ...O
+,              ...O
+Ġyou           ...O
+Ġmentioned     ...O
+Ġsome          ...O
+Ġfinancial     ...O
+Ġstress        ...O
+.              ...O
+ĠPlease        ...O
+Ġbring         ...O
+Ġyour          ...O
+Ġstatement     ...O
+Ġwith          ...O
+Ġthe           ...O
+ĠCV            ...O
+V              ...O
+Ġ[             ...O
+CR             ...O
+EDIT           ...O
+C              ...O
+ARD            ...O
+EXP            ...O
+IR             ...O
+Y              ...O
+CR             ...O
+EDIT           ...O
+CAR            ...O
+DC             ...O
+V              ...O
+V              ...O
+_              ...O
+1              ...O
+]              ...O
+Ġto            ...O
+Ġour           ...O
+Ġnext          ...O
+Ġmeeting       ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: 2. Export Compliance Report
+Assessment of the company's adherence to export regulations and trade control laws. desideria, Andriana at King and Sons. Contact: +70-11 672.0872. Ensure Passport: 012922192.
+Privacy Mask:
+  - Label: USERNAME, Value: desideria, Start: 112, End: 121
+  - Label: GIVENNAME, Value: Andriana, Start: 123, End: 131
+  - Label: TELEPHONENUM, Value: +70-11 672.0872, Start: 159, End: 174
+
+Token...Label
+<s>            ...O
+2              ...O
+.              ...O
+ĠExport        ...O
+ĠCompliance    ...O
+ĠReport        ...O
+Ċ              ...O
+Ass            ...O
+essment        ...O
+Ġof            ...O
+Ġthe           ...O
+Ġcompany       ...O
+'s             ...O
+Ġadherence     ...O
+Ġto            ...O
+Ġexport        ...O
+Ġregulations   ...O
+Ġand           ...O
+Ġtrade         ...O
+Ġcontrol       ...O
+Ġlaws          ...O
+.              ...O
+Ġdes           ...B-USERNAME
+ider           ...I-USERNAME
+ia             ...I-USERNAME
+,              ...O
+ĠAnd           ...B-GIVENNAME
+ri             ...I-GIVENNAME
+ana            ...I-GIVENNAME
+Ġat            ...O
+ĠKing          ...O
+Ġand           ...O
+ĠSons          ...O
+.              ...O
+ĠContact       ...O
+:              ...O
+Ġ+             ...B-TELEPHONENUM
+70             ...I-TELEPHONENUM
+-              ...I-TELEPHONENUM
+11             ...I-TELEPHONENUM
+Ġ6             ...I-TELEPHONENUM
+72             ...I-TELEPHONENUM
+.              ...I-TELEPHONENUM
+08             ...I-TELEPHONENUM
+72             ...I-TELEPHONENUM
+.              ...O
+ĠEnsure        ...O
+ĠPass          ...O
+port           ...O
+:              ...O
+Ġ01            ...O
+29             ...O
+22             ...O
+192            ...O
+.              ...O
+</s>           ...O
+

@@ -1,0 +1,587 @@
+
+--- Random Sample ---
+Source Text: Blood Glucose Log | 2073-10-27T00:00:00 | Pre-breakfast: 85508 mg/dL, Terrace 362, South Alvord. Post-lunch: 85508 mg/dL. Pre-dinner: 85508 mg/dL noted by Lele. Use 511-50-9641 for reference.
+Privacy Mask:
+  - Label: CITY, Value: Alvord, Start: 89, End: 95
+  - Label: GIVENNAME, Value: Lele, Start: 155, End: 159
+  - Label: SOCIALNUM, Value: 511-50-9641, Start: 165, End: 176
+
+Token...Label
+[CLS]          ...O
+Blood          ...O
+G              ...O
+##lu           ...O
+##cos          ...O
+##e            ...O
+Lo             ...O
+##g            ...O
+|              ...O
+207            ...O
+##3            ...O
+-              ...O
+10             ...O
+-              ...O
+27             ...O
+##T            ...O
+##00           ...O
+:              ...O
+00             ...O
+:              ...O
+00             ...O
+|              ...O
+Pre            ...O
+-              ...O
+breakfast      ...O
+:              ...O
+85             ...O
+##50           ...O
+##8            ...O
+mg             ...O
+/              ...O
+d              ...O
+##L            ...O
+,              ...O
+Terrace        ...O
+36             ...O
+##2            ...O
+,              ...O
+South          ...O
+Al             ...B-CITY
+##vor          ...I-CITY
+##d            ...I-CITY
+.              ...O
+Post           ...O
+-              ...O
+lunch          ...O
+:              ...O
+85             ...O
+##50           ...O
+##8            ...O
+mg             ...O
+/              ...O
+d              ...O
+##L            ...O
+.              ...O
+Pre            ...O
+-              ...O
+dinner         ...O
+:              ...O
+85             ...O
+##50           ...O
+##8            ...O
+mg             ...O
+/              ...O
+d              ...O
+##L            ...O
+noted          ...O
+by             ...O
+Le             ...B-GIVENNAME
+##le           ...I-GIVENNAME
+.              ...O
+Use            ...O
+51             ...B-SOCIALNUM
+##1            ...I-SOCIALNUM
+-              ...I-SOCIALNUM
+50             ...I-SOCIALNUM
+-              ...I-SOCIALNUM
+96             ...I-SOCIALNUM
+##41           ...I-SOCIALNUM
+for            ...O
+reference      ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: We need gender reassignment entries updated. Verify patient Francou's Other details, along with their f6:f7:0f:67:f1:e5.
+Privacy Mask:
+  - Label: SURNAME, Value: Francou, Start: 60, End: 67
+
+Token...Label
+[CLS]          ...O
+We             ...O
+need           ...O
+gender         ...O
+re             ...O
+##ass          ...O
+##ignment      ...O
+entries        ...O
+updated        ...O
+.              ...O
+V              ...O
+##eri          ...O
+##fy           ...O
+patient        ...O
+Franco         ...B-SURNAME
+##u            ...I-SURNAME
+'              ...O
+s              ...O
+Other          ...O
+details        ...O
+,              ...O
+along          ...O
+with           ...O
+their          ...O
+f              ...O
+##6            ...O
+:              ...O
+f              ...O
+##7            ...O
+:              ...O
+0              ...O
+##f            ...O
+:              ...O
+67             ...O
+:              ...O
+f              ...O
+##1            ...O
+:              ...O
+e              ...O
+##5            ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Submit Documentation:
+Case Details: ORDER-201106-7644
+Patient within Persia, 19 requirement.
+Seeking all legal feedback and clinical issues reported during LGBTQ+ healthcare services given.
+Privacy Mask:
+  - Label: CITY, Value: Persia, Start: 69, End: 75
+
+Token...Label
+[CLS]          ...O
+Sub            ...O
+##mit          ...O
+Doc            ...O
+##ume          ...O
+##ntation      ...O
+:              ...O
+Case           ...O
+Det            ...O
+##ails         ...O
+:              ...O
+OR             ...O
+##DE           ...O
+##R            ...O
+-              ...O
+2011           ...O
+##0            ...O
+##6            ...O
+-              ...O
+76             ...O
+##44           ...O
+Pat            ...O
+##ient         ...O
+within         ...O
+Persia         ...B-CITY
+,              ...O
+19             ...O
+requirement    ...O
+.              ...O
+See            ...O
+##king         ...O
+all            ...O
+legal          ...O
+feedback       ...O
+and            ...O
+clinical       ...O
+issues         ...O
+reported       ...O
+during         ...O
+LGBT           ...O
+##Q            ...O
++              ...O
+healthcare     ...O
+services       ...O
+given          ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: <p>Jones-Gomez has applied for funding. Geo-coordinates: [39.1084, -83.24449].</p>
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+<              ...O
+p              ...O
+>              ...O
+Jones          ...O
+-              ...O
+Gomez          ...O
+has            ...O
+applied        ...O
+for            ...O
+funding        ...O
+.              ...O
+G              ...O
+##eo           ...O
+-              ...O
+coordinates    ...O
+:              ...O
+[              ...O
+39             ...O
+.              ...O
+108            ...O
+##4            ...O
+,              ...O
+-              ...O
+83             ...O
+.              ...O
+244            ...O
+##4            ...O
+##9            ...O
+]              ...O
+.              ...O
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Plan Proposal<br><br>Case #INV-201104-4195<br><br>Substance use history<br>City: Egg Harbor City<br>Date: 2014-08-26T00:00:00<br><br>Recommend CBT sessions bi-weekly and group therapy on weekends. Monitor progress through remote sessions (User: sidar.saible20, Pass: u4@XS). Contact therapist via +11.677-918 6467.
+Privacy Mask:
+  - Label: CITY, Value: Egg Harbor City, Start: 81, End: 96
+  - Label: USERNAME, Value: sidar.saible20, Start: 245, End: 259
+  - Label: PASSWORD, Value: u4@XS, Start: 267, End: 272
+  - Label: TELEPHONENUM, Value: +11.677-918 6467, Start: 297, End: 313
+
+Token...Label
+[CLS]          ...O
+Plan           ...O
+Pro            ...O
+##po           ...O
+##sal          ...O
+<              ...O
+br             ...O
+>              ...O
+<              ...O
+br             ...O
+>              ...O
+Case           ...O
+#              ...O
+IN             ...O
+##V            ...O
+-              ...O
+2011           ...O
+##0            ...O
+##4            ...O
+-              ...O
+41             ...O
+##9            ...O
+##5            ...O
+<              ...O
+br             ...O
+>              ...O
+<              ...O
+br             ...O
+>              ...O
+Sub            ...O
+##stance       ...O
+use            ...O
+history        ...O
+<              ...O
+br             ...O
+>              ...O
+City           ...O
+:              ...O
+Egg            ...B-CITY
+Harbor         ...I-CITY
+City           ...I-CITY
+<              ...O
+br             ...O
+>              ...O
+Date           ...O
+:              ...O
+2014           ...O
+-              ...O
+08             ...O
+-              ...O
+26             ...O
+##T            ...O
+##00           ...O
+:              ...O
+00             ...O
+:              ...O
+00             ...O
+<              ...O
+br             ...O
+>              ...O
+<              ...O
+br             ...O
+>              ...O
+Re             ...O
+##com          ...O
+##men          ...O
+##d            ...O
+CB             ...O
+##T            ...O
+sessions       ...O
+bi             ...O
+-              ...O
+weekly         ...O
+and            ...O
+group          ...O
+therapy        ...O
+on             ...O
+weekends       ...O
+.              ...O
+Monitor        ...O
+progress       ...O
+through        ...O
+remote         ...O
+sessions       ...O
+(              ...O
+Use            ...O
+##r            ...O
+:              ...O
+si             ...B-USERNAME
+##dar          ...I-USERNAME
+.              ...I-USERNAME
+sa             ...I-USERNAME
+##ible         ...I-USERNAME
+##20           ...I-USERNAME
+,              ...O
+Pass           ...O
+:              ...O
+u              ...B-PASSWORD
+##4            ...I-PASSWORD
+@              ...I-PASSWORD
+X              ...I-PASSWORD
+##S            ...I-PASSWORD
+)              ...O
+.              ...O
+Contact        ...O
+therapist      ...O
+via            ...O
++              ...B-TELEPHONENUM
+11             ...I-TELEPHONENUM
+.              ...I-TELEPHONENUM
+67             ...I-TELEPHONENUM
+##7            ...I-TELEPHONENUM
+-              ...I-TELEPHONENUM
+91             ...I-TELEPHONENUM
+##8            ...I-TELEPHONENUM
+64             ...I-TELEPHONENUM
+##6            ...I-TELEPHONENUM
+##7            ...I-TELEPHONENUM
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: <p>Patient presented with erythema nodosum. Anti-inflammatory medications prescribed. Operations geologist suggest thorough investigations to determine underlying causes.</p>
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+<              ...O
+p              ...O
+>              ...O
+Pat            ...O
+##ient         ...O
+presented      ...O
+with           ...O
+er             ...O
+##yt           ...O
+##hem          ...O
+##a            ...O
+nod            ...O
+##os           ...O
+##um           ...O
+.              ...O
+Anti           ...O
+-              ...O
+inflammatory   ...O
+medications    ...O
+prescribed     ...O
+.              ...O
+Operations     ...O
+geologist      ...O
+suggest        ...O
+thorough       ...O
+investigations ...O
+to             ...O
+determine      ...O
+underlying     ...O
+causes         ...O
+.              ...O
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Excited and ready! Shout out to everyone coming from the Administration area. This initiative means a lot!
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+Ex             ...O
+##cite         ...O
+##d            ...O
+and            ...O
+ready          ...O
+!              ...O
+S              ...O
+##hout         ...O
+out            ...O
+to             ...O
+everyone       ...O
+coming         ...O
+from           ...O
+the            ...O
+Administration ...O
+area           ...O
+.              ...O
+This           ...O
+initiative     ...O
+means          ...O
+a              ...O
+lot            ...O
+!              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Hello Hazel, can my policy documents be sent to https://www.reyes.com/? My new doc number is BILL-201907-4721.
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+Hello          ...O
+Hazel          ...O
+,              ...O
+can            ...O
+my             ...O
+policy         ...O
+documents      ...O
+be             ...O
+sent           ...O
+to             ...O
+https          ...O
+:              ...O
+/              ...O
+/              ...O
+www            ...O
+.              ...O
+re             ...O
+##yes          ...O
+.              ...O
+com            ...O
+/              ...O
+?              ...O
+My             ...O
+new            ...O
+do             ...O
+##c            ...O
+number         ...O
+is             ...O
+B              ...O
+##IL           ...O
+##L            ...O
+-              ...O
+2019           ...O
+##0            ...O
+##7            ...O
+-              ...O
+47             ...O
+##21           ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: There's an issue with a payment. Client mentioned their JCB linked with 30b4UF4KUBSgQQ3mSyADCDm7NC1y6Zmz48.
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+There          ...O
+'              ...O
+s              ...O
+an             ...O
+issue          ...O
+with           ...O
+a              ...O
+payment        ...O
+.              ...O
+C              ...O
+##lient        ...O
+mentioned      ...O
+their          ...O
+J              ...O
+##C            ...O
+##B            ...O
+linked         ...O
+with           ...O
+30             ...O
+##b            ...O
+##4            ...O
+##U            ...O
+##F            ...O
+##4            ...O
+##K            ...O
+##U            ...O
+##BS           ...O
+##g            ...O
+##Q            ...O
+##Q            ...O
+##3            ...O
+##m            ...O
+##S            ...O
+##y            ...O
+##AD           ...O
+##CD           ...O
+##m            ...O
+##7            ...O
+##NC           ...O
+##1            ...O
+##y            ...O
+##6            ...O
+##Z            ...O
+##m            ...O
+##z            ...O
+##48           ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Don’t forget to change your Q7'~eS this week. Security protocols are being updated.
+Privacy Mask:
+  - Label: PASSWORD, Value: Q7'~eS, Start: 28, End: 34
+
+Token...Label
+[CLS]          ...O
+Don            ...O
+’              ...O
+t              ...O
+forget         ...O
+to             ...O
+change         ...O
+your           ...O
+Q              ...B-PASSWORD
+##7            ...I-PASSWORD
+'              ...I-PASSWORD
+~              ...I-PASSWORD
+e              ...I-PASSWORD
+##S            ...I-PASSWORD
+this           ...O
+week           ...O
+.              ...O
+Security       ...O
+protocols      ...O
+are            ...O
+being          ...O
+updated        ...O
+.              ...O
+[SEP]          ...O
+

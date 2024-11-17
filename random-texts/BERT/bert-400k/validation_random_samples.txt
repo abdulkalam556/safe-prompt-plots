@@ -1,0 +1,624 @@
+
+--- Random Sample ---
+Source Text: <div>
+  <p>Client: andnjhentdblvnwa453</p>
+  <p>Document ID: 0332893014. Payment through 3659607691374757. IP: [IPV4_1].</p>
+</div>
+Privacy Mask:
+  - Label: USERNAME, Value: andnjhentdblvnwa453, Start: 19, End: 38
+  - Label: IDCARDNUM, Value: 0332893014, Start: 61, End: 71
+  - Label: CREDITCARDNUMBER, Value: 3659607691374757, Start: 89, End: 105
+
+Token...Label
+[CLS]          ...O
+<              ...O
+di             ...O
+##v            ...O
+>              ...O
+<              ...O
+p              ...O
+>              ...O
+C              ...O
+##lient        ...O
+:              ...O
+and            ...B-USERNAME
+##n            ...I-USERNAME
+##j            ...I-USERNAME
+##hen          ...I-USERNAME
+##t            ...I-USERNAME
+##d            ...I-USERNAME
+##b            ...I-USERNAME
+##l            ...I-USERNAME
+##v            ...I-USERNAME
+##n            ...I-USERNAME
+##wa           ...I-USERNAME
+##45           ...I-USERNAME
+##3            ...I-USERNAME
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+<              ...O
+p              ...O
+>              ...O
+Doc            ...O
+##ume          ...O
+##nt           ...O
+ID             ...O
+:              ...O
+03             ...B-IDCARDNUM
+##32           ...I-IDCARDNUM
+##8            ...I-IDCARDNUM
+##9            ...I-IDCARDNUM
+##30           ...I-IDCARDNUM
+##14           ...I-IDCARDNUM
+.              ...O
+Pay            ...O
+##ment         ...O
+through        ...O
+365            ...B-CREDITCARDNUMBER
+##9            ...I-CREDITCARDNUMBER
+##60           ...I-CREDITCARDNUMBER
+##7            ...I-CREDITCARDNUMBER
+##6            ...I-CREDITCARDNUMBER
+##9            ...I-CREDITCARDNUMBER
+##13           ...I-CREDITCARDNUMBER
+##7            ...I-CREDITCARDNUMBER
+##47           ...I-CREDITCARDNUMBER
+##5            ...I-CREDITCARDNUMBER
+##7            ...I-CREDITCARDNUMBER
+.              ...O
+IP             ...O
+:              ...O
+[              ...O
+IP             ...O
+##V            ...O
+##4            ...O
+_              ...O
+1              ...O
+]              ...O
+.              ...O
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+<              ...O
+/              ...O
+di             ...O
+##v            ...O
+>              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Hey Delsa, I noticed a pattern in the recent appointments. Could you check the file for March/70 patients in Kessler Peak? Use the pin 41428 to access the secure folder and confirm the 01:14 slots for behavior tracking updates.
+Privacy Mask:
+  - Label: GIVENNAME, Value: Delsa, Start: 4, End: 9
+  - Label: DATEOFBIRTH, Value: March/70, Start: 88, End: 96
+  - Label: STREET, Value: Kessler Peak, Start: 109, End: 121
+
+Token...Label
+[CLS]          ...O
+Hey            ...O
+Del            ...B-GIVENNAME
+##sa           ...I-GIVENNAME
+,              ...O
+I              ...O
+noticed        ...O
+a              ...O
+pattern        ...O
+in             ...O
+the            ...O
+recent         ...O
+appointments   ...O
+.              ...O
+Could          ...O
+you            ...O
+check          ...O
+the            ...O
+file           ...O
+for            ...O
+March          ...B-DATEOFBIRTH
+/              ...I-DATEOFBIRTH
+70             ...I-DATEOFBIRTH
+patients       ...O
+in             ...O
+Ke             ...B-STREET
+##ssler        ...I-STREET
+Peak           ...I-STREET
+?              ...O
+Use            ...O
+the            ...O
+pin            ...O
+41             ...O
+##42           ...O
+##8            ...O
+to             ...O
+access         ...O
+the            ...O
+secure         ...O
+folder         ...O
+and            ...O
+confirm        ...O
+the            ...O
+01             ...O
+:              ...O
+14             ...O
+slots          ...O
+for            ...O
+behavior       ...O
+tracking       ...O
+updates        ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: <p>2  Needs Assessment  Analysis determining the specific needs and challenges of the community.  Review of respondents with 58:25:13:fd:f6:50 reported connectivity issues with remote therapy. Improve infrastructure within the 40014 area.</p>
+Privacy Mask:
+  - Label: ZIPCODE, Value: 40014, Start: 227, End: 232
+
+Token...Label
+[CLS]          ...O
+<              ...O
+p              ...O
+>              ...O
+2              ...O
+Need           ...O
+##s            ...O
+Assessment     ...O
+Analysis       ...O
+determining    ...O
+the            ...O
+specific       ...O
+needs          ...O
+and            ...O
+challenges     ...O
+of             ...O
+the            ...O
+community      ...O
+.              ...O
+Review         ...O
+of             ...O
+respond        ...O
+##ents         ...O
+with           ...O
+58             ...O
+:              ...O
+25             ...O
+:              ...O
+13             ...O
+:              ...O
+f              ...O
+##d            ...O
+:              ...O
+f              ...O
+##6            ...O
+:              ...O
+50             ...O
+reported       ...O
+connectivity   ...O
+issues         ...O
+with           ...O
+remote         ...O
+therapy        ...O
+.              ...O
+I              ...O
+##mp           ...O
+##rove         ...O
+infrastructure ...O
+within         ...O
+the            ...O
+400            ...B-ZIPCODE
+##14           ...I-ZIPCODE
+area           ...O
+.              ...O
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Very good read! Does combining an old 390970538 and new 89411487475129 streamline the mortgage process?
+Privacy Mask:
+  - Label: IDCARDNUM, Value: 89411487475129, Start: 56, End: 70
+
+Token...Label
+[CLS]          ...O
+Very           ...O
+good           ...O
+read           ...O
+!              ...O
+Does           ...O
+combining      ...O
+an             ...O
+old            ...O
+390            ...O
+##9            ...O
+##70           ...O
+##53           ...O
+##8            ...O
+and            ...O
+new            ...O
+89             ...B-IDCARDNUM
+##41           ...I-IDCARDNUM
+##14           ...I-IDCARDNUM
+##8            ...I-IDCARDNUM
+##7            ...I-IDCARDNUM
+##47           ...I-IDCARDNUM
+##51           ...I-IDCARDNUM
+##29           ...I-IDCARDNUM
+stream         ...O
+##line         ...O
+the            ...O
+mortgage       ...O
+process        ...O
+?              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: <p>Adolescent diagnosed with acne vulgaris. Suggested regimen includes benzoyl peroxide. Monitor skin reaction during treatment. Coordination with Dunn LLC for advanced cases necessary.</p>
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+<              ...O
+p              ...O
+>              ...O
+Ad             ...O
+##ole          ...O
+##scent        ...O
+diagnosed      ...O
+with           ...O
+a              ...O
+##c            ...O
+##ne           ...O
+v              ...O
+##ul           ...O
+##gar          ...O
+##is           ...O
+.              ...O
+Su             ...O
+##gg           ...O
+##ested        ...O
+regime         ...O
+##n            ...O
+includes       ...O
+ben            ...O
+##zo           ...O
+##yl           ...O
+per            ...O
+##oxide        ...O
+.              ...O
+Monitor        ...O
+skin           ...O
+reaction       ...O
+during         ...O
+treatment      ...O
+.              ...O
+Co             ...O
+##ordination   ...O
+with           ...O
+Dunn           ...O
+LLC            ...O
+for            ...O
+advanced       ...O
+cases          ...O
+necessary      ...O
+.              ...O
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: What's our school's 387753 as of the latest audit? Email me details.
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+What           ...O
+'              ...O
+s              ...O
+our            ...O
+school         ...O
+'              ...O
+s              ...O
+38             ...O
+##7            ...O
+##75           ...O
+##3            ...O
+as             ...O
+of             ...O
+the            ...O
+latest         ...O
+audit          ...O
+?              ...O
+Em             ...O
+##ail          ...O
+me             ...O
+details        ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: <p>Effective from 2006-06-18T00:00:00, implement meetings tracked via DOC-202007-2820. Digital documentation using [IPV6_7] and maintain secure records. Use a5Q-8$!:u for sensitive data protections.</p>
+Privacy Mask:
+  - Label: PASSWORD, Value: a5Q-8$!:u, Start: 157, End: 166
+
+Token...Label
+[CLS]          ...O
+<              ...O
+p              ...O
+>              ...O
+Effect         ...O
+##ive          ...O
+from           ...O
+2006           ...O
+-              ...O
+06             ...O
+-              ...O
+18             ...O
+##T            ...O
+##00           ...O
+:              ...O
+00             ...O
+:              ...O
+00             ...O
+,              ...O
+implement      ...O
+meetings       ...O
+tracked        ...O
+via            ...O
+D              ...O
+##OC           ...O
+-              ...O
+2020           ...O
+##0            ...O
+##7            ...O
+-              ...O
+28             ...O
+##20           ...O
+.              ...O
+Digital        ...O
+documentation  ...O
+using          ...O
+[              ...O
+IP             ...O
+##V            ...O
+##6            ...O
+_              ...O
+7              ...O
+]              ...O
+and            ...O
+maintain       ...O
+secure         ...O
+records        ...O
+.              ...O
+Use            ...O
+a              ...B-PASSWORD
+##5            ...I-PASSWORD
+##Q            ...I-PASSWORD
+-              ...I-PASSWORD
+8              ...I-PASSWORD
+$              ...I-PASSWORD
+!              ...I-PASSWORD
+:              ...I-PASSWORD
+u              ...I-PASSWORD
+for            ...O
+sensitive      ...O
+data           ...O
+protection     ...O
+##s            ...O
+.              ...O
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: <p>Schedule follow-ups every 21, observed by ELIJA 810107 9 307. Behaviour logs to be documented under FILE-201107-4829. Ensure data security through $%?&gP5CJ/u&, employing TF6 for localisation.</p>
+Privacy Mask:
+  - Label: DRIVERLICENSENUM, Value: ELIJA 810107 9 307, Start: 45, End: 63
+  - Label: PASSWORD, Value: $%?&gP5CJ/u&, Start: 150, End: 162
+  - Label: ZIPCODE, Value: TF6, Start: 174, End: 177
+
+Token...Label
+[CLS]          ...O
+<              ...O
+p              ...O
+>              ...O
+Schedule       ...O
+follow         ...O
+-              ...O
+ups            ...O
+every          ...O
+21             ...O
+,              ...O
+observed       ...O
+by             ...O
+E              ...B-DRIVERLICENSENUM
+##L            ...I-DRIVERLICENSENUM
+##I            ...I-DRIVERLICENSENUM
+##J            ...I-DRIVERLICENSENUM
+##A            ...I-DRIVERLICENSENUM
+81             ...I-DRIVERLICENSENUM
+##01           ...I-DRIVERLICENSENUM
+##0            ...I-DRIVERLICENSENUM
+##7            ...I-DRIVERLICENSENUM
+9              ...I-DRIVERLICENSENUM
+307            ...I-DRIVERLICENSENUM
+.              ...O
+Be             ...O
+##ha           ...O
+##viour        ...O
+logs           ...O
+to             ...O
+be             ...O
+documented     ...O
+under          ...O
+F              ...O
+##IL           ...O
+##E            ...O
+-              ...O
+2011           ...O
+##0            ...O
+##7            ...O
+-              ...O
+48             ...O
+##29           ...O
+.              ...O
+En             ...O
+##sure         ...O
+data           ...O
+security       ...O
+through        ...O
+$              ...B-PASSWORD
+%              ...I-PASSWORD
+?              ...I-PASSWORD
+&              ...I-PASSWORD
+g              ...I-PASSWORD
+##P            ...I-PASSWORD
+##5            ...I-PASSWORD
+##C            ...I-PASSWORD
+##J            ...I-PASSWORD
+/              ...I-PASSWORD
+u              ...I-PASSWORD
+&              ...I-PASSWORD
+,              ...O
+employing      ...O
+T              ...B-ZIPCODE
+##F            ...I-ZIPCODE
+##6            ...I-ZIPCODE
+for            ...O
+local          ...O
+##isation      ...O
+.              ...O
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: <p>Ensure shots are timely for 36-year-olds. Full schedule at https://whitney-carr.com/. Reach out to High-Yield Account using 787607256862823.</p>
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+<              ...O
+p              ...O
+>              ...O
+En             ...O
+##sure         ...O
+shots          ...O
+are            ...O
+time           ...O
+##ly           ...O
+for            ...O
+36             ...O
+-              ...O
+year           ...O
+-              ...O
+olds           ...O
+.              ...O
+Full           ...O
+schedule       ...O
+at             ...O
+https          ...O
+:              ...O
+/              ...O
+/              ...O
+w              ...O
+##hit          ...O
+##ney          ...O
+-              ...O
+car            ...O
+##r            ...O
+.              ...O
+com            ...O
+/              ...O
+.              ...O
+Reach          ...O
+out            ...O
+to             ...O
+High           ...O
+-              ...O
+Yi             ...O
+##eld          ...O
+A              ...O
+##cco          ...O
+##unt          ...O
+using          ...O
+78             ...O
+##7            ...O
+##60           ...O
+##7            ...O
+##25           ...O
+##6            ...O
+##86           ...O
+##28           ...O
+##23           ...O
+.              ...O
+<              ...O
+/              ...O
+p              ...O
+>              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Male, you think we should target prevention campaigns in KY first? Ensuring privacy with 22:0e:4c:f2:89:d1 for data collection.
+Privacy Mask:
+
+Token...Label
+[CLS]          ...O
+Male           ...O
+,              ...O
+you            ...O
+think          ...O
+we             ...O
+should         ...O
+target         ...O
+prevention     ...O
+campaigns      ...O
+in             ...O
+K              ...O
+##Y            ...O
+first          ...O
+?              ...O
+En             ...O
+##su           ...O
+##ring         ...O
+privacy        ...O
+with           ...O
+22             ...O
+:              ...O
+0              ...O
+##e            ...O
+:              ...O
+4              ...O
+##c            ...O
+:              ...O
+f              ...O
+##2            ...O
+:              ...O
+89             ...O
+:              ...O
+d              ...O
+##1            ...O
+for            ...O
+data           ...O
+collection     ...O
+.              ...O
+[SEP]          ...O
+

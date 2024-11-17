@@ -1,0 +1,526 @@
+
+--- Random Sample ---
+Source Text: We've noticed your interest in the mindfulness therapy, Erna. Kindly make your $522,391.27 payment by 3/54.
+Privacy Mask:
+  - Label: FIRSTNAME, Value: Erna, Start: 56, End: 60
+  - Label: CURRENCYSYMBOL, Value: $, Start: 79, End: 80
+  - Label: AMOUNT, Value: 522,391.27, Start: 80, End: 90
+  - Label: DATE, Value: 3/54, Start: 102, End: 106
+
+Token...Label
+[CLS]          ...O
+We             ...O
+'              ...O
+ve             ...O
+noticed        ...O
+your           ...O
+interest       ...O
+in             ...O
+the            ...O
+mind           ...O
+##fulness      ...O
+therapy        ...O
+,              ...O
+E              ...B-FIRSTNAME
+##rna          ...I-FIRSTNAME
+.              ...O
+Kind           ...O
+##ly           ...O
+make           ...O
+your           ...O
+$              ...B-CURRENCYSYMBOL
+52             ...B-AMOUNT
+##2            ...I-AMOUNT
+,              ...I-AMOUNT
+39             ...I-AMOUNT
+##1            ...I-AMOUNT
+.              ...I-AMOUNT
+27             ...I-AMOUNT
+payment        ...O
+by             ...O
+3              ...B-DATE
+/              ...I-DATE
+54             ...I-DATE
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: We look forward to your internship Audra92. Upon your first day, please provide your WWVCRT897PMB26825 for parking arrangements.
+Privacy Mask:
+  - Label: USERNAME, Value: Audra92, Start: 35, End: 42
+  - Label: VEHICLEVIN, Value: WWVCRT897PMB26825, Start: 85, End: 102
+
+Token...Label
+[CLS]          ...O
+We             ...O
+look           ...O
+forward        ...O
+to             ...O
+your           ...O
+internship     ...O
+Au             ...B-USERNAME
+##dra          ...I-USERNAME
+##9            ...I-USERNAME
+##2            ...I-USERNAME
+.              ...O
+Upon           ...O
+your           ...O
+first          ...O
+day            ...O
+,              ...O
+please         ...O
+provide        ...O
+your           ...O
+W              ...B-VEHICLEVIN
+##W            ...I-VEHICLEVIN
+##VC           ...I-VEHICLEVIN
+##RT           ...I-VEHICLEVIN
+##8            ...I-VEHICLEVIN
+##9            ...I-VEHICLEVIN
+##7            ...I-VEHICLEVIN
+##PM           ...I-VEHICLEVIN
+##B            ...I-VEHICLEVIN
+##26           ...I-VEHICLEVIN
+##8            ...I-VEHICLEVIN
+##25           ...I-VEHICLEVIN
+for            ...O
+parking        ...O
+arrangements   ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: A Representative is needed to set up the new automation script. First name is Charlie, but I've misplaced his contact info. Can anyone assist?
+Privacy Mask:
+  - Label: JOBTYPE, Value: Representative, Start: 2, End: 16
+  - Label: MIDDLENAME, Value: Charlie, Start: 78, End: 85
+
+Token...Label
+[CLS]          ...O
+A              ...O
+Representative ...B-JOBTYPE
+is             ...O
+needed         ...O
+to             ...O
+set            ...O
+up             ...O
+the            ...O
+new            ...O
+automation     ...O
+script         ...O
+.              ...O
+First          ...O
+name           ...O
+is             ...O
+Charlie        ...B-MIDDLENAME
+,              ...O
+but            ...O
+I              ...O
+'              ...O
+ve             ...O
+mi             ...O
+##sp           ...O
+##laced        ...O
+his            ...O
+contact        ...O
+info           ...O
+.              ...O
+Can            ...O
+anyone         ...O
+assist         ...O
+?              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Dear Margot74, this is to inform you that our 'Revitalize Research' marketing campaign has surpassed the initial budget limit by Brunei Dollar 0.0006b. Please provide further guidance on how to proceed.
+Privacy Mask:
+  - Label: USERNAME, Value: Margot74, Start: 5, End: 13
+  - Label: JOBAREA, Value: Research, Start: 58, End: 66
+  - Label: CURRENCY, Value: Brunei Dollar, Start: 129, End: 142
+  - Label: AMOUNT, Value: 0.0006b, Start: 143, End: 150
+
+Token...Label
+[CLS]          ...O
+Dear           ...O
+Mar            ...B-USERNAME
+##got          ...I-USERNAME
+##7            ...I-USERNAME
+##4            ...I-USERNAME
+,              ...O
+this           ...O
+is             ...O
+to             ...O
+inform         ...O
+you            ...O
+that           ...O
+our            ...O
+'              ...O
+Rev            ...O
+##ital         ...O
+##ize          ...O
+Research       ...B-JOBAREA
+'              ...O
+marketing      ...O
+campaign       ...O
+has            ...O
+surpassed      ...O
+the            ...O
+initial        ...O
+budget         ...O
+limit          ...O
+by             ...O
+Brunei         ...B-CURRENCY
+Dollar         ...I-CURRENCY
+0              ...B-AMOUNT
+.              ...I-AMOUNT
+000            ...I-AMOUNT
+##6            ...I-AMOUNT
+##b            ...I-AMOUNT
+.              ...O
+Please         ...O
+provide        ...O
+further        ...O
+guidance       ...O
+on             ...O
+how            ...O
+to             ...O
+proceed        ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Did you know that Prohaska Group offers a dedicated program for gifted students? Each child can develop at their own pace, guided by experienced educators in the Accounts. More information can be found at https://handmade-ruby.name/.
+Privacy Mask:
+  - Label: COMPANYNAME, Value: Prohaska Group, Start: 18, End: 32
+  - Label: JOBAREA, Value: Accounts, Start: 162, End: 170
+  - Label: URL, Value: https://handmade-ruby.name/, Start: 205, End: 232
+
+Token...Label
+[CLS]          ...O
+Did            ...O
+you            ...O
+know           ...O
+that           ...O
+Pro            ...B-COMPANYNAME
+##has          ...I-COMPANYNAME
+##ka           ...I-COMPANYNAME
+Group          ...I-COMPANYNAME
+offers         ...O
+a              ...O
+dedicated      ...O
+program        ...O
+for            ...O
+gifted         ...O
+students       ...O
+?              ...O
+Each           ...O
+child          ...O
+can            ...O
+develop        ...O
+at             ...O
+their          ...O
+own            ...O
+pace           ...O
+,              ...O
+guided         ...O
+by             ...O
+experienced    ...O
+educators      ...O
+in             ...O
+the            ...O
+A              ...B-JOBAREA
+##cco          ...I-JOBAREA
+##unts         ...I-JOBAREA
+.              ...O
+More           ...O
+information    ...O
+can            ...O
+be             ...O
+found          ...O
+at             ...O
+https          ...B-URL
+:              ...I-URL
+/              ...I-URL
+/              ...I-URL
+hand           ...I-URL
+##made         ...I-URL
+-              ...I-URL
+rub            ...I-URL
+##y            ...I-URL
+.              ...I-URL
+name           ...I-URL
+/              ...I-URL
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Beware of fake websites asking for 756.5358.1508 or 0638163394010300. Always check the website's URL and security certificate before entering any sensitive information.
+Privacy Mask:
+  - Label: SSN, Value: 756.5358.1508, Start: 35, End: 48
+  - Label: CREDITCARDNUMBER, Value: 0638163394010300, Start: 52, End: 68
+
+Token...Label
+[CLS]          ...O
+Be             ...O
+##ware         ...O
+of             ...O
+fake           ...O
+websites       ...O
+asking         ...O
+for            ...O
+75             ...B-SSN
+##6            ...I-SSN
+.              ...I-SSN
+53             ...I-SSN
+##5            ...I-SSN
+##8            ...I-SSN
+.              ...I-SSN
+150            ...I-SSN
+##8            ...I-SSN
+or             ...O
+06             ...B-CREDITCARDNUMBER
+##38           ...I-CREDITCARDNUMBER
+##16           ...I-CREDITCARDNUMBER
+##33           ...I-CREDITCARDNUMBER
+##9            ...I-CREDITCARDNUMBER
+##40           ...I-CREDITCARDNUMBER
+##10           ...I-CREDITCARDNUMBER
+##30           ...I-CREDITCARDNUMBER
+##0            ...I-CREDITCARDNUMBER
+.              ...O
+Always         ...O
+check          ...O
+the            ...O
+website        ...O
+'              ...O
+s              ...O
+U              ...O
+##RL           ...O
+and            ...O
+security       ...O
+certificate    ...O
+before         ...O
+entering       ...O
+any            ...O
+sensitive      ...O
+information    ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Please analyze the legal protocols related to transactions involving the USD currency in respect of our Interactions operations.
+Privacy Mask:
+  - Label: CURRENCYCODE, Value: USD, Start: 73, End: 76
+  - Label: JOBAREA, Value: Interactions, Start: 104, End: 116
+
+Token...Label
+[CLS]          ...O
+Please         ...O
+analyze        ...O
+the            ...O
+legal          ...O
+protocols      ...O
+related        ...O
+to             ...O
+transactions   ...O
+involving      ...O
+the            ...O
+USD            ...B-CURRENCYCODE
+currency       ...O
+in             ...O
+respect        ...O
+of             ...O
+our            ...O
+Inter          ...B-JOBAREA
+##actions      ...I-JOBAREA
+operations     ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: After a survey conducted on 09/03/1901, it's revealed that parental involvement is encouraged by more transparency. The Mecklenburg-Vorpommern school board is now displaying their financial data such as expenditure in Metical and donation account (DK4889040083608911) online.
+Privacy Mask:
+  - Label: DOB, Value: 09/03/1901, Start: 28, End: 38
+  - Label: STATE, Value: Mecklenburg-Vorpommern, Start: 120, End: 142
+  - Label: CURRENCYNAME, Value: Metical, Start: 218, End: 225
+  - Label: IBAN, Value: DK4889040083608911, Start: 248, End: 266
+
+Token...Label
+[CLS]          ...O
+After          ...O
+a              ...O
+survey         ...O
+conducted      ...O
+on             ...O
+09             ...B-DOB
+/              ...I-DOB
+03             ...I-DOB
+/              ...I-DOB
+1901           ...I-DOB
+,              ...O
+it             ...O
+'              ...O
+s              ...O
+revealed       ...O
+that           ...O
+parental       ...O
+involvement    ...O
+is             ...O
+encouraged     ...O
+by             ...O
+more           ...O
+transparency   ...O
+.              ...O
+The            ...O
+Mecklenburg    ...B-STATE
+-              ...I-STATE
+V              ...I-STATE
+##or           ...I-STATE
+##po           ...I-STATE
+##mmer         ...I-STATE
+##n            ...I-STATE
+school         ...O
+board          ...O
+is             ...O
+now            ...O
+displaying     ...O
+their          ...O
+financial      ...O
+data           ...O
+such           ...O
+as             ...O
+expenditure    ...O
+in             ...O
+Met            ...B-CURRENCYNAME
+##ical         ...I-CURRENCYNAME
+and            ...O
+donation       ...O
+account        ...O
+(              ...O
+D              ...B-IBAN
+##K            ...I-IBAN
+##48           ...I-IBAN
+##8            ...I-IBAN
+##90           ...I-IBAN
+##40           ...I-IBAN
+##0            ...I-IBAN
+##8            ...I-IBAN
+##36           ...I-IBAN
+##0            ...I-IBAN
+##8            ...I-IBAN
+##9            ...I-IBAN
+##11           ...I-IBAN
+)              ...O
+online         ...O
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: Important notice: The hospital's main credit card has been changed to: 0091489220011675 issued by discover.
+Privacy Mask:
+  - Label: CREDITCARDNUMBER, Value: 0091489220011675, Start: 71, End: 87
+  - Label: CREDITCARDISSUER, Value: discover, Start: 98, End: 106
+
+Token...Label
+[CLS]          ...O
+Important      ...O
+notice         ...O
+:              ...O
+The            ...O
+hospital       ...O
+'              ...O
+s              ...O
+main           ...O
+credit         ...O
+card           ...O
+has            ...O
+been           ...O
+changed        ...O
+to             ...O
+:              ...O
+00             ...B-CREDITCARDNUMBER
+##9            ...I-CREDITCARDNUMBER
+##14           ...I-CREDITCARDNUMBER
+##8            ...I-CREDITCARDNUMBER
+##9            ...I-CREDITCARDNUMBER
+##22           ...I-CREDITCARDNUMBER
+##00           ...I-CREDITCARDNUMBER
+##11           ...I-CREDITCARDNUMBER
+##6            ...I-CREDITCARDNUMBER
+##75           ...I-CREDITCARDNUMBER
+issued         ...O
+by             ...O
+discover       ...B-CREDITCARDISSUER
+.              ...O
+[SEP]          ...O
+
+
+--- Random Sample ---
+Source Text: A patient Advocacy survey was conducted on 1987-10-28T14:22:29.365Z for patients living on 64442 and 58037-3527. The results have shown enhancements are needed in multiple service areas.
+Privacy Mask:
+  - Label: DATE, Value: 1987-10-28T14:22:29.365Z, Start: 43, End: 67
+  - Label: ZIPCODE, Value: 64442, Start: 91, End: 96
+  - Label: ZIPCODE, Value: 58037-3527, Start: 101, End: 111
+
+Token...Label
+[CLS]          ...O
+A              ...O
+patient        ...O
+Ad             ...O
+##voc          ...O
+##acy          ...O
+survey         ...O
+was            ...O
+conducted      ...O
+on             ...O
+1987           ...B-DATE
+-              ...I-DATE
+10             ...I-DATE
+-              ...I-DATE
+28             ...I-DATE
+##T            ...I-DATE
+##14           ...I-DATE
+:              ...I-DATE
+22             ...I-DATE
+:              ...I-DATE
+29             ...I-DATE
+.              ...I-DATE
+365            ...I-DATE
+##Z            ...I-DATE
+for            ...O
+patients       ...O
+living         ...O
+on             ...O
+64             ...B-ZIPCODE
+##44           ...I-ZIPCODE
+##2            ...I-ZIPCODE
+and            ...O
+580            ...B-ZIPCODE
+##37           ...I-ZIPCODE
+-              ...I-ZIPCODE
+35             ...I-ZIPCODE
+##27           ...I-ZIPCODE
+.              ...O
+The            ...O
+results        ...O
+have           ...O
+shown          ...O
+enhance        ...O
+##ments        ...O
+are            ...O
+needed         ...O
+in             ...O
+multiple       ...O
+service        ...O
+areas          ...O
+.              ...O
+[SEP]          ...O
+

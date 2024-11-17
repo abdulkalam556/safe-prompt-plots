@@ -1,0 +1,594 @@
+
+--- Random Sample ---
+Source Text: Scheduled to discuss with Landers hospital at 11 AM. Ensure CA documents are ready.
+Privacy Mask:
+  - Label: CITY, Value: Landers, Start: 26, End: 33
+
+Token...Label
+<s>            ...O
+S              ...O
+ched           ...O
+uled           ...O
+Ġto            ...O
+Ġdiscuss       ...O
+Ġwith          ...O
+ĠLand          ...B-CITY
+ers            ...I-CITY
+Ġhospital      ...O
+Ġat            ...O
+Ġ11            ...O
+ĠAM            ...O
+.              ...O
+ĠEnsure        ...O
+ĠCA            ...O
+Ġdocuments     ...O
+Ġare           ...O
+Ġready         ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Our mathematics proposal emphasizes enhanced problem-solving skills, supported by Lamb, Rodriguez and Rosales and reviewed by Haruo. Geographic data [37.5, -84.19] for 40447, monitored via 512995632275631. Security verified through 657308 and 0c:30:7d:1d:4b:f5.
+Privacy Mask:
+  - Label: GIVENNAME, Value: Haruo, Start: 126, End: 131
+  - Label: ZIPCODE, Value: 40447, Start: 168, End: 173
+  - Label: ACCOUNTNUM, Value: 512995632275631, Start: 189, End: 204
+
+Token...Label
+<s>            ...O
+Our            ...O
+Ġmathematics   ...O
+Ġproposal      ...O
+Ġemphasizes    ...O
+Ġenhanced      ...O
+Ġproblem       ...O
+-              ...O
+s              ...O
+olving         ...O
+Ġskills        ...O
+,              ...O
+Ġsupported     ...O
+Ġby            ...O
+ĠLamb          ...O
+,              ...O
+ĠRodriguez     ...O
+Ġand           ...O
+ĠRos           ...O
+ales           ...O
+Ġand           ...O
+Ġreviewed      ...O
+Ġby            ...O
+ĠHar           ...B-GIVENNAME
+uo             ...I-GIVENNAME
+.              ...O
+ĠGeographic    ...O
+Ġdata          ...O
+Ġ[             ...O
+37             ...O
+.              ...O
+5              ...O
+,              ...O
+Ġ-             ...O
+84             ...O
+.              ...O
+19             ...O
+]              ...O
+Ġfor           ...O
+Ġ40            ...B-ZIPCODE
+447            ...I-ZIPCODE
+,              ...O
+Ġmonitored     ...O
+Ġvia           ...O
+Ġ512           ...B-ACCOUNTNUM
+99             ...I-ACCOUNTNUM
+56             ...I-ACCOUNTNUM
+322            ...I-ACCOUNTNUM
+756            ...I-ACCOUNTNUM
+31             ...I-ACCOUNTNUM
+.              ...O
+ĠSecurity      ...O
+Ġverified      ...O
+Ġthrough       ...O
+Ġ6             ...O
+57             ...O
+308            ...O
+Ġand           ...O
+Ġ0             ...O
+c              ...O
+:              ...O
+30             ...O
+:              ...O
+7              ...O
+d              ...O
+:              ...O
+1              ...O
+d              ...O
+:              ...O
+4              ...O
+b              ...O
+:              ...O
+f              ...O
+5              ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: <p>Campaigns targeting 66-66 demographic yield higher results, especially when following advice from Madame Brancharel. For further data and strategic insights, refer to https://akhtar-edwards.com/. Continuous refinement beneficial.</p>
+Privacy Mask:
+  - Label: SURNAME, Value: Brancharel, Start: 108, End: 118
+
+Token...Label
+<s>            ...O
+<              ...O
+p              ...O
+>              ...O
+Campaign       ...O
+s              ...O
+Ġtargeting     ...O
+Ġ66            ...O
+-              ...O
+66             ...O
+Ġdemographic   ...O
+Ġyield         ...O
+Ġhigher        ...O
+Ġresults       ...O
+,              ...O
+Ġespecially    ...O
+Ġwhen          ...O
+Ġfollowing     ...O
+Ġadvice        ...O
+Ġfrom          ...O
+ĠMadame        ...O
+ĠBranch        ...B-SURNAME
+arel           ...I-SURNAME
+.              ...O
+ĠFor           ...O
+Ġfurther       ...O
+Ġdata          ...O
+Ġand           ...O
+Ġstrategic     ...O
+Ġinsights      ...O
+,              ...O
+Ġrefer         ...O
+Ġto            ...O
+Ġhttps         ...O
+://            ...O
+ak             ...O
+htar           ...O
+-              ...O
+ed             ...O
+wards          ...O
+.              ...O
+com            ...O
+/.             ...O
+ĠContinuous    ...O
+Ġrefinement    ...O
+Ġbeneficial    ...O
+.</            ...O
+p              ...O
+>              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Sven-Olaf, got your transaction for 75.8589b$. Confirm if the 529730 is updated in your Merrill Lynch account as of 16:15. Any discrepancies?
+Privacy Mask:
+  - Label: GIVENNAME, Value: Sven-Olaf, Start: 0, End: 9
+
+Token...Label
+<s>            ...O
+S              ...B-GIVENNAME
+ven            ...I-GIVENNAME
+-              ...I-GIVENNAME
+Ol             ...I-GIVENNAME
+af             ...I-GIVENNAME
+,              ...O
+Ġgot           ...O
+Ġyour          ...O
+Ġtransaction   ...O
+Ġfor           ...O
+Ġ75            ...O
+.              ...O
+8              ...O
+589            ...O
+b              ...O
+$.             ...O
+ĠConf          ...O
+irm            ...O
+Ġif            ...O
+Ġthe           ...O
+Ġ5             ...O
+297            ...O
+30             ...O
+Ġis            ...O
+Ġupdated       ...O
+Ġin            ...O
+Ġyour          ...O
+ĠMerrill       ...O
+ĠLynch         ...O
+Ġaccount       ...O
+Ġas            ...O
+Ġof            ...O
+Ġ16            ...O
+:              ...O
+15             ...O
+.              ...O
+ĠAny           ...O
+Ġdiscrepancies ...O
+?              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Patient's CT scan is here. Authenticate with 87121780237557 and confirm.
+Privacy Mask:
+  - Label: IDCARDNUM, Value: 87121780237557, Start: 45, End: 59
+
+Token...Label
+<s>            ...O
+Pat            ...O
+ient           ...O
+'s             ...O
+ĠCT            ...O
+Ġscan          ...O
+Ġis            ...O
+Ġhere          ...O
+.              ...O
+ĠAuthent       ...O
+icate          ...O
+Ġwith          ...O
+Ġ87            ...B-IDCARDNUM
+12             ...I-IDCARDNUM
+17             ...I-IDCARDNUM
+80             ...I-IDCARDNUM
+23             ...I-IDCARDNUM
+75             ...I-IDCARDNUM
+57             ...I-IDCARDNUM
+Ġand           ...O
+Ġconfirm       ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Session at 09:39 will include updates on Newtonmore Laggan economic activities. Bring detailed financial operations linked to Bank of Ireland UK and validate 262-579-0602.
+Privacy Mask:
+  - Label: CITY, Value: Newtonmore Laggan, Start: 41, End: 58
+  - Label: SOCIALNUM, Value: 262-579-0602, Start: 158, End: 170
+
+Token...Label
+<s>            ...O
+Session        ...O
+Ġat            ...O
+Ġ09            ...O
+:              ...O
+39             ...O
+Ġwill          ...O
+Ġinclude       ...O
+Ġupdates       ...O
+Ġon            ...O
+ĠNewton        ...B-CITY
+more           ...I-CITY
+ĠLag           ...I-CITY
+gan            ...I-CITY
+Ġeconomic      ...O
+Ġactivities    ...O
+.              ...O
+ĠBring         ...O
+Ġdetailed      ...O
+Ġfinancial     ...O
+Ġoperations    ...O
+Ġlinked        ...O
+Ġto            ...O
+ĠBank          ...O
+Ġof            ...O
+ĠIreland       ...O
+ĠUK            ...O
+Ġand           ...O
+Ġvalidate      ...O
+Ġ262           ...B-SOCIALNUM
+-              ...I-SOCIALNUM
+579            ...I-SOCIALNUM
+-              ...I-SOCIALNUM
+0              ...I-SOCIALNUM
+602            ...I-SOCIALNUM
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: <p>Workforce annually flagged finance reviews. Disputes registered reflecting executive roles citations logging names Flordelis. Problem-scope asserted withdrawal-hosted auditing unbalanced pay roles seen within Engineer, manufacturing systems, union addresses compliance United Kingdom's initiations evaluating withheld pay ramifications.</p>
+Privacy Mask:
+  - Label: GIVENNAME, Value: Flordelis, Start: 118, End: 127
+
+Token...Label
+<s>            ...O
+<              ...O
+p              ...O
+>              ...O
+Work           ...O
+force          ...O
+Ġannually      ...O
+Ġflagged       ...O
+Ġfinance       ...O
+Ġreviews       ...O
+.              ...O
+ĠDisp          ...O
+utes           ...O
+Ġregistered    ...O
+Ġreflecting    ...O
+Ġexecutive     ...O
+Ġroles         ...O
+Ġcitations     ...O
+Ġlogging       ...O
+Ġnames         ...O
+ĠFl            ...B-GIVENNAME
+ord            ...I-GIVENNAME
+el             ...I-GIVENNAME
+is             ...I-GIVENNAME
+.              ...O
+ĠProblem       ...O
+-              ...O
+scope          ...O
+Ġasserted      ...O
+Ġwithdrawal    ...O
+-              ...O
+host           ...O
+ed             ...O
+Ġaud           ...O
+iting          ...O
+Ġun            ...O
+balanced       ...O
+Ġpay           ...O
+Ġroles         ...O
+Ġseen          ...O
+Ġwithin        ...O
+ĠEngineer      ...O
+,              ...O
+Ġmanufacturing ...O
+Ġsystems       ...O
+,              ...O
+Ġunion         ...O
+Ġaddresses     ...O
+Ġcompliance    ...O
+ĠUnited        ...O
+ĠKingdom       ...O
+'s             ...O
+Ġiniti         ...O
+ations         ...O
+Ġevaluating    ...O
+Ġwithheld      ...O
+Ġpay           ...O
+Ġramifications ...O
+.</            ...O
+p              ...O
+>              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: In case of suspected concussion, report directly to building 284. Use telemedicine services available at http://www.lozano.info/ for a follow-up. Always have ID 843673981 handy.
+Privacy Mask:
+  - Label: BUILDINGNUM, Value: 284, Start: 61, End: 64
+
+Token...Label
+<s>            ...O
+In             ...O
+Ġcase          ...O
+Ġof            ...O
+Ġsuspected     ...O
+Ġconcussion    ...O
+,              ...O
+Ġreport        ...O
+Ġdirectly      ...O
+Ġto            ...O
+Ġbuilding      ...O
+Ġ284           ...B-BUILDINGNUM
+.              ...O
+ĠUse           ...O
+Ġtele          ...O
+med            ...O
+ic             ...O
+ine            ...O
+Ġservices      ...O
+Ġavailable     ...O
+Ġat            ...O
+Ġhttp          ...O
+://            ...O
+www            ...O
+.              ...O
+lo             ...O
+z              ...O
+ano            ...O
+.              ...O
+info           ...O
+/              ...O
+Ġfor           ...O
+Ġa             ...O
+Ġfollow        ...O
+-              ...O
+up             ...O
+.              ...O
+ĠAlways        ...O
+Ġhave          ...O
+ĠID            ...O
+Ġ84            ...O
+367            ...O
+39             ...O
+81             ...O
+Ġhandy         ...O
+.              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: <p><strong>Approach:</strong> Weekly sessions at Bunkers Hill guided by Mr Naik. For urgent matters, contact 0044-54-724 3574 or nsigism@protonmail.com. Documented with M SIG 55299.</p>
+Privacy Mask:
+  - Label: STREET, Value: Bunkers Hill, Start: 49, End: 61
+  - Label: GIVENNAME, Value: Naik, Start: 75, End: 79
+  - Label: TELEPHONENUM, Value: 0044-54-724 3574, Start: 109, End: 125
+  - Label: EMAIL, Value: nsigism@protonmail.com, Start: 129, End: 151
+
+Token...Label
+<s>            ...O
+<              ...O
+p              ...O
+><             ...O
+strong         ...O
+>              ...O
+App            ...O
+roach          ...O
+:              ...O
+</             ...O
+strong         ...O
+>              ...O
+ĠWeekly        ...O
+Ġsessions      ...O
+Ġat            ...O
+ĠB             ...B-STREET
+unk            ...I-STREET
+ers            ...I-STREET
+ĠHill          ...I-STREET
+Ġguided        ...O
+Ġby            ...O
+ĠMr            ...O
+ĠNa            ...B-GIVENNAME
+ik             ...I-GIVENNAME
+.              ...O
+ĠFor           ...O
+Ġurgent        ...O
+Ġmatters       ...O
+,              ...O
+Ġcontact       ...O
+Ġ00            ...B-TELEPHONENUM
+44             ...I-TELEPHONENUM
+-              ...I-TELEPHONENUM
+54             ...I-TELEPHONENUM
+-              ...I-TELEPHONENUM
+7              ...I-TELEPHONENUM
+24             ...I-TELEPHONENUM
+Ġ35            ...I-TELEPHONENUM
+74             ...I-TELEPHONENUM
+Ġor            ...O
+Ġns            ...B-EMAIL
+ig             ...I-EMAIL
+ism            ...I-EMAIL
+@              ...I-EMAIL
+pro            ...I-EMAIL
+ton            ...I-EMAIL
+mail           ...I-EMAIL
+.              ...I-EMAIL
+com            ...I-EMAIL
+.              ...O
+ĠDocument      ...O
+ed             ...O
+Ġwith          ...O
+ĠM             ...O
+ĠSIG           ...O
+Ġ55            ...O
+299            ...O
+.</            ...O
+p              ...O
+>              ...O
+</s>           ...O
+
+
+--- Random Sample ---
+Source Text: Patient Details<br>Identification Number: 2140143359<br>Gender: Non-binary<br>Age: 47<br>City: Hubbard<br>MAC Address: 30:6d:72:31:33:f4<br>Bank: Varo Bank<br>Salary: 14.97b<br>Assessment: Issues related to impulse control; recommend behavior therapy.
+Privacy Mask:
+  - Label: IDCARDNUM, Value: 2140143359, Start: 42, End: 52
+  - Label: CITY, Value: Hubbard, Start: 95, End: 102
+
+Token...Label
+<s>            ...O
+Pat            ...O
+ient           ...O
+ĠDetails       ...O
+<              ...O
+br             ...O
+>              ...O
+Ident          ...O
+ification      ...O
+ĠNumber        ...O
+:              ...O
+Ġ214           ...B-IDCARDNUM
+014            ...I-IDCARDNUM
+33             ...I-IDCARDNUM
+59             ...I-IDCARDNUM
+<              ...O
+br             ...O
+>              ...O
+Gender         ...O
+:              ...O
+ĠNon           ...O
+-              ...O
+binary         ...O
+<              ...O
+br             ...O
+>              ...O
+Age            ...O
+:              ...O
+Ġ47            ...O
+<              ...O
+br             ...O
+>              ...O
+City           ...O
+:              ...O
+ĠHubbard       ...B-CITY
+<              ...O
+br             ...O
+>              ...O
+MAC            ...O
+ĠAddress       ...O
+:              ...O
+Ġ30            ...O
+:              ...O
+6              ...O
+d              ...O
+:              ...O
+72             ...O
+:              ...O
+31             ...O
+:              ...O
+33             ...O
+:              ...O
+f              ...O
+4              ...O
+<              ...O
+br             ...O
+>              ...O
+Bank           ...O
+:              ...O
+ĠV             ...O
+aro            ...O
+ĠBank          ...O
+<              ...O
+br             ...O
+>              ...O
+Sal            ...O
+ary            ...O
+:              ...O
+Ġ14            ...O
+.              ...O
+97             ...O
+b              ...O
+<              ...O
+br             ...O
+>              ...O
+Ass            ...O
+essment        ...O
+:              ...O
+ĠIssues        ...O
+Ġrelated       ...O
+Ġto            ...O
+Ġimpulse       ...O
+Ġcontrol       ...O
+;              ...O
+Ġrecommend     ...O
+Ġbehavior      ...O
+Ġtherapy       ...O
+.              ...O
+</s>           ...O
+
